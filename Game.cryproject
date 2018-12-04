@@ -1,0 +1,54 @@
+{
+  "version": 3,
+  "type": "",
+  "info": {
+    "name": "GunGame",
+    "guid": "c3430350-8df7-32c9-b430-2361dc0b133e"
+  },
+  "content": {
+    "assets": [
+      "Assets"
+    ],
+    "code": [
+      ""
+    ],
+    "libs": [
+      {
+        "name": "Blank Game Template",
+        "shared": {
+          "any": "",
+          "win_x64": "",
+          "win_x86": ""
+        }
+      }
+    ]
+  },
+  "require": {
+    "engine": "engine-5.5",
+    "plugins": [
+      {
+        "type": "EPluginType::Native",
+        "path": "CryDefaultEntities"
+      },
+      {
+        "type": "EPluginType::Native",
+        "path": "CryGamePlatform",
+        "platforms": [
+          "PS4"
+        ]
+      }
+    ]
+  },
+  "console_variables": [
+    {
+      "name": "sys_target_platforms",
+      "value": "pc"
+    }
+  ],
+  "console_commands": [
+    {
+      "name": "map",
+      "value": "example"
+    }
+  ]
+}
