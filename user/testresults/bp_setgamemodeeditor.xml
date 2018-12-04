@@ -1,0 +1,166 @@
+<root>
+	<thread name="Main" totalTimeMS="5.368700" startTime="82915215968" stopTime="82915269655" totalBlocks="47"> 
+		<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/GameEngine.cpp" totalTimeMS="5.345800" startTime="82915216196" stopTime="82915269654" args=""> 
+			<block name="SRenderThread::FlushAndWait" totalTimeMS="2.387300" startTime="82915216312" stopTime="82915240185" args=""> 
+				<block name="Wait - SyncMainWithRender" totalTimeMS="2.355200" startTime="82915216316" stopTime="82915239868" args=""> 
+					<block name="pfx2::CParticleJobManager::SynchronizeUpdates" totalTimeMS="0.000800" startTime="82915239839" stopTime="82915239847" args=""> 
+					</block>
+				</block>
+				<block name="Wait - SyncMainWithRender" totalTimeMS="0.031200" startTime="82915239872" stopTime="82915240184" args=""> 
+					<block name="pfx2::CParticleJobManager::SynchronizeUpdates" totalTimeMS="0.000300" startTime="82915240177" stopTime="82915240180" args=""> 
+					</block>
+				</block>
+			</block>
+			<block name="CLog::LogV" totalTimeMS="0.083400" startTime="82915240650" stopTime="82915241484" args=""> 
+			</block>
+			<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/CryEditDoc.cpp" totalTimeMS="0.000200" startTime="82915254801" stopTime="82915254803" args=""> 
+			</block>
+			<block name="CEntitiesComponentPropertyCache::RestoreEntities" totalTimeMS="0.197300" startTime="82915254926" stopTime="82915256899" args=""> 
+				<block name="CEntitiesComponentPropertyCache::LoadComponent" totalTimeMS="0.004600" startTime="82915254970" stopTime="82915255016" args=""> 
+				</block>
+				<block name="CEntitiesComponentPropertyCache::LoadComponent" totalTimeMS="0.000300" startTime="82915255020" stopTime="82915255023" args=""> 
+				</block>
+				<block name="CEntitiesComponentPropertyCache::LoadComponent" totalTimeMS="0.000100" startTime="82915255894" stopTime="82915255895" args=""> 
+				</block>
+				<block name="CEntitiesComponentPropertyCache::LoadComponent" totalTimeMS="0.000100" startTime="82915255896" stopTime="82915255897" args=""> 
+				</block>
+				<block name="CEntitiesComponentPropertyCache::LoadComponent" totalTimeMS="0.000100" startTime="82915255901" stopTime="82915255902" args=""> 
+				</block>
+				<block name="CEntitiesComponentPropertyCache::LoadComponent" totalTimeMS="0.000200" startTime="82915255903" stopTime="82915255905" args=""> 
+				</block>
+			</block>
+			<block name="CEntitiesComponentPropertyCache::ClearCache" totalTimeMS="0.005000" startTime="82915256901" stopTime="82915256951" args=""> 
+			</block>
+			<block name="CEntity::SendEventInternal" totalTimeMS="0.002900" startTime="82915258288" stopTime="82915258317" args=""> 
+			</block>
+			<block name="CEntity::SendEventInternal" totalTimeMS="0.000000" startTime="82915258318" stopTime="82915258318" args=""> 
+			</block>
+			<block name="CEntity::SendEventInternal" totalTimeMS="0.000000" startTime="82915258319" stopTime="82915258319" args=""> 
+			</block>
+			<block name="CEntity::SendEventInternal" totalTimeMS="0.000100" startTime="82915258560" stopTime="82915258561" args=""> 
+			</block>
+			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAISystem/CAISystem.cpp" totalTimeMS="0.237200" startTime="82915258856" stopTime="82915261228" args=""> 
+				<block name="CTargetTrackManager::Reset" totalTimeMS="0.000900" startTime="82915258870" stopTime="82915258879" args=""> 
+					<block name="CTargetTrackManager::DeleteAgents" totalTimeMS="0.000400" startTime="82915258874" stopTime="82915258878" args=""> 
+					</block>
+				</block>
+				<block name="CCryPak::IsFileExist" totalTimeMS="0.116800" startTime="82915259269" stopTime="82915260437" args=""> 
+					<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.002400" startTime="82915259279" stopTime="82915259303" args=""> 
+					</block>
+					<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.001900" startTime="82915259778" stopTime="82915259797" args=""> 
+					</block>
+					<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.002100" startTime="82915259800" stopTime="82915259821" args=""> 
+					</block>
+					<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.003000" startTime="82915260208" stopTime="82915260238" args=""> 
+					</block>
+					<block name="CCryPak::AdjustFileNameInternal" totalTimeMS="0.001000" startTime="82915260239" stopTime="82915260249" args=""> 
+					</block>
+					<block name="CCryPak::FindPakFileEntry" totalTimeMS="0.000600" startTime="82915260430" stopTime="82915260436" args=""> 
+					</block>
+				</block>
+				<block name="CLog::LogV" totalTimeMS="0.038900" startTime="82915260459" stopTime="82915260848" args=""> 
+				</block>
+				<block name="CMNMPathfinder::WaitForJobsToFinish" totalTimeMS="0.001600" startTime="82915260884" stopTime="82915260900" args=""> 
+				</block>
+			</block>
+			<block name="CEntitySlot::UpdateRenderNode" totalTimeMS="0.000500" startTime="82915261336" stopTime="82915261341" args=""> 
+			</block>
+			<block name="CEntitySlot::UpdateRenderNode" totalTimeMS="0.000100" startTime="82915261342" stopTime="82915261343" args=""> 
+			</block>
+			<block name="CEntity::SendEventInternal" totalTimeMS="0.002700" startTime="82915261443" stopTime="82915261470" args=""> 
+				<block name="CEntitySlot::UpdateRenderNode" totalTimeMS="0.000200" startTime="82915261458" stopTime="82915261460" args=""> 
+				</block>
+				<block name="CEntitySlot::UpdateRenderNode" totalTimeMS="0.000100" startTime="82915261460" stopTime="82915261461" args=""> 
+				</block>
+			</block>
+			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/CryAction.cpp" totalTimeMS="0.256800" startTime="82915261474" stopTime="82915264042" args=""> 
+				<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/ActionGame.cpp" totalTimeMS="0.229100" startTime="82915261480" stopTime="82915263771" args=""> 
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/FlashUI/FlashUI.cpp" totalTimeMS="0.027100" startTime="82915263429" stopTime="82915263700" args=""> 
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/FlashUI/FlashUI.cpp" totalTimeMS="0.000300" startTime="82915263631" stopTime="82915263634" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/FlashUI/FlashUI.cpp" totalTimeMS="0.000100" startTime="82915264029" stopTime="82915264030" args=""> 
+				</block>
+			</block>
+			<block name="CBaseInput::PostInputEvent" totalTimeMS="0.005800" startTime="82915264649" stopTime="82915264707" args=""> 
+			</block>
+			<block name="CKeyboard::Update" totalTimeMS="0.000400" startTime="82915265546" stopTime="82915265550" args=""> 
+			</block>
+			<block name="CMouse::Update" totalTimeMS="0.001000" startTime="82915269268" stopTime="82915269278" args=""> 
+			</block>
+			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/FlashUI/FlashUI.cpp" totalTimeMS="0.000100" startTime="82915269520" stopTime="82915269521" args=""> 
+			</block>
+			<block name="CObjManager::ClearStatObjGarbage" totalTimeMS="0.000900" startTime="82915269644" stopTime="82915269653" args=""> 
+			</block>
+		</block>
+	</thread>
+	<thread name="JobSystem_Worker_0" totalTimeMS="5.368700" startTime="82915215968" stopTime="82915269655" totalBlocks="6"> 
+		<block name="TexStrmUpdate" totalTimeMS="0.009600" startTime="82915234773" stopTime="82915234869" args="TexStrmUpdate"> 
+			<block name="CPlanningTextureStreamer::Job_UpdateEntry" totalTimeMS="0.006100" startTime="82915234806" stopTime="82915234867" args=""> 
+				<block name="CPlanningTextureStreamer::Job_Sort" totalTimeMS="0.005800" startTime="82915234808" stopTime="82915234866" args=""> 
+					<block name="CPlanningTextureStreamer::Job_InitKeys" totalTimeMS="0.001100" startTime="82915234813" stopTime="82915234824" args=""> 
+					</block>
+					<block name="CPlanningTextureStreamer::Job_Bias" totalTimeMS="0.000300" startTime="82915234825" stopTime="82915234828" args=""> 
+					</block>
+					<block name="CPlanningTextureStreamer::Job_Plan" totalTimeMS="0.001300" startTime="82915234852" stopTime="82915234865" args=""> 
+					</block>
+				</block>
+			</block>
+		</block>
+	</thread>
+	<thread name="JobSystem_Worker_7" totalTimeMS="5.368700" startTime="82915215968" stopTime="82915269655" totalBlocks="2"> 
+		<block name="C3DEngine::UpdateWindGridJobEntry" totalTimeMS="1.784400" startTime="82915234941" stopTime="82915252785" args="C3DEngine::UpdateWindGridJobEntry"> 
+			<block name="C3DEngine::UpdateWindGridJobEntry" totalTimeMS="1.778600" startTime="82915234996" stopTime="82915252782" args=""> 
+			</block>
+		</block>
+	</thread>
+	<thread name="RenderThread" totalTimeMS="5.368700" startTime="82915215968" stopTime="82915269655" totalBlocks="16"> 
+		<block name="CTexture::StreamState_Update" totalTimeMS="0.000500" startTime="82915235166" stopTime="82915235171" args=""> 
+		</block>
+		<block name="CTexture::StreamState_UpdatePrep" totalTimeMS="0.000200" startTime="82915235173" stopTime="82915235175" args=""> 
+		</block>
+		<block name="CAuxGeomCB::Flush" totalTimeMS="0.001200" startTime="82915235308" stopTime="82915235320" args=""> 
+		</block>
+		<block name="CFillRateManager::ComputeMaxPixels" totalTimeMS="0.003300" startTime="82915235440" stopTime="82915235473" args=""> 
+		</block>
+		<block name="SYNC TO FRAME FENCE" totalTimeMS="0.005100" startTime="82915236732" stopTime="82915236783" args=""> 
+		</block>
+		<block name="FLUSH GPU HEAPS" totalTimeMS="0.001500" startTime="82915236784" stopTime="82915236799" args=""> 
+		</block>
+		<block name="LockParticleVideoMemory" totalTimeMS="0.002200" startTime="82915239585" stopTime="82915239607" args=""> 
+		</block>
+		<block name="CREGeomCache::UpdateModified" totalTimeMS="0.000300" startTime="82915239613" stopTime="82915239616" args=""> 
+		</block>
+		<block name="CDeviceBufferManager::ReleaseEmptyBanks" totalTimeMS="0.005900" startTime="82915239620" stopTime="82915239679" args=""> 
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="0.032500" startTime="82915239706" stopTime="82915240031" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="0.014800" startTime="82915239711" stopTime="82915239859" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.016500" startTime="82915239864" stopTime="82915240029" args=""> 
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="0.015500" startTime="82915240032" stopTime="82915240187" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="0.014900" startTime="82915240034" stopTime="82915240183" args=""> 
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="2.946700" startTime="82915240188" stopTime="82915269655" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="2.946500" startTime="82915240190" stopTime="82915269655" args=""> 
+			</block>
+		</block>
+	</thread>
+	<thread name="JobSystem_Worker_5" totalTimeMS="5.368700" startTime="82915215968" stopTime="82915269655" totalBlocks="6"> 
+		<block name="TexStrmUpdate" totalTimeMS="0.009000" startTime="82915235496" stopTime="82915235586" args="TexStrmUpdate"> 
+			<block name="CPlanningTextureStreamer::Job_UpdateEntry" totalTimeMS="0.004300" startTime="82915235542" stopTime="82915235585" args=""> 
+				<block name="CPlanningTextureStreamer::Job_Sort" totalTimeMS="0.003900" startTime="82915235545" stopTime="82915235584" args=""> 
+					<block name="CPlanningTextureStreamer::Job_InitKeys" totalTimeMS="0.000900" startTime="82915235550" stopTime="82915235559" args=""> 
+					</block>
+					<block name="CPlanningTextureStreamer::Job_Bias" totalTimeMS="0.000300" startTime="82915235562" stopTime="82915235565" args=""> 
+					</block>
+					<block name="CPlanningTextureStreamer::Job_Plan" totalTimeMS="0.000800" startTime="82915235576" stopTime="82915235584" args=""> 
+					</block>
+				</block>
+			</block>
+		</block>
+	</thread>
+</root>

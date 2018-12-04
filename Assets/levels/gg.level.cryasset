@@ -1,4 +1,4 @@
-<AssetMetadata version="0" type="Level" guid="9a102090-b9d0-77ac-5cc9-bc65cac213e2" source="">
+<AssetMetadata version="0" type="Level" guid="5a7445ed-f0f1-1a3d-0989-6da5a94939ef" source="">
  <Files>
   <File path="gg/gg.level"/>
  </Files>
@@ -14,26 +14,11 @@
   <Path>%editor%/soundtemplates.xml</Path>
   <Path>%editor%/toolbox.xml</Path>
   <Path>%editor%/usertools.xml</Path>
+  <Path>%engine%/config/defaultscripts/compressionpolicy.xml</Path>
   <Path>%engine%/engineassets/icons/averagememoryusage.dds</Path>
   <Path>%engine%/engineassets/icons/highmemoryusage.dds</Path>
   <Path>%engine%/engineassets/icons/livepreview.dds</Path>
   <Path>%engine%/engineassets/icons/lowmemoryusage.dds</Path>
-  <Path>%engine%/engineassets/materials/fog/fogvolumebox.mtl</Path>
-  <Path>%engine%/engineassets/materials/fog/fogvolumeellipsoid.mtl</Path>
-  <Path>%engine%/engineassets/materials/fog/oceaninto.mtl</Path>
-  <Path>%engine%/engineassets/materials/fog/oceanintolowspec.mtl</Path>
-  <Path>%engine%/engineassets/materials/fog/oceanoutof.mtl</Path>
-  <Path>%engine%/engineassets/materials/fog/oceanoutoflowspec.mtl</Path>
-  <Path>%engine%/engineassets/materials/material_terrain_default.mtl</Path>
-  <Path>%engine%/engineassets/materials/sky/sky.mtl</Path>
-  <Path>%engine%/engineassets/materials/water/ocean_default.mtl</Path>
-  <Path>%engine%/engineassets/materials/water/wateroceanbottom.mtl</Path>
-  <Path>%engine%/engineassets/texturemsg/defaultnouvs.dds</Path>
-  <Path>%engine%/engineassets/textures/defaults/16_12.dds</Path>
-  <Path>%engine%/engineassets/textures/defaults/16_34.dds</Path>
-  <Path>%engine%/engineassets/textures/defaults/16_5.dds</Path>
-  <Path>%engine%/engineassets/textures/defaults/16_grey.dds</Path>
   <Path>%engine%/engineassets/textures/grey.dds</Path>
-  <Path>%engine%/engineassets/textures/skys/night/half_moon.dds</Path>
  </Dependencies>
 </AssetMetadata>
