@@ -1,0 +1,12 @@
+<root>
+	<thread name="Main" totalTimeMS="0.286300" startTime="55644650681" stopTime="55644653544" totalBlocks="7"> 
+	</thread>
+	<thread name="RenderThread" totalTimeMS="0.286300" startTime="55644650681" stopTime="55644653544" totalBlocks="14"> 
+		<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.108000" startTime="55644652477" stopTime="55644653557" args=""> 
+			<block name="CD3D9Renderer::RenderAux lambda" totalTimeMS="0.106300" startTime="55644652484" stopTime="55644653547" args=""> 
+			</block>
+		</block>
+	</thread>
+	<thread name="BackgroundTask_IO" totalTimeMS="0.286300" startTime="55644650681" stopTime="55644653544" totalBlocks="1"> 
+	</thread>
+</root>

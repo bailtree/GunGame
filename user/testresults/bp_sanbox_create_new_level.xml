@@ -1,0 +1,1412 @@
+<root>
+	<thread name="Main" totalTimeMS="451.351410" startTime="60295923654" stopTime="60300437168" totalBlocks="347260"> 
+		<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/IEditorImpl.cpp" totalTimeMS="7.942200" startTime="60295928652" stopTime="60296008074" args=""> 
+			<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/CryEditDoc.cpp" totalTimeMS="7.578400" startTime="60295930711" stopTime="60296006495" args=""> 
+				<block name="Notify Clear Level Contents" totalTimeMS="0.136300" startTime="60295930712" stopTime="60295932075" args=""> 
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/ViewManager.cpp" totalTimeMS="0.964600" startTime="60295934389" stopTime="60295944035" args=""> 
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/GameEngine.cpp" totalTimeMS="6.162500" startTime="60295944300" stopTime="60296005925" args=""> 
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryEntitySystem/EntitySystem.cpp" totalTimeMS="0.397200" startTime="60295944363" stopTime="60295948335" args=""> 
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/Cry3DEngine/3dEngineLoad.cpp" totalTimeMS="5.319000" startTime="60295948466" stopTime="60296001656" args=""> 
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/ResourceManager.cpp" totalTimeMS="0.268500" startTime="60295948535" stopTime="60295951220" args=""> 
+							<block name="SRenderThread::FlushAndWait" totalTimeMS="0.263800" startTime="60295948568" stopTime="60295951206" args=""> 
+								<block name="Wait - SyncMainWithRender" totalTimeMS="0.238500" startTime="60295948820" stopTime="60295951205" args=""> 
+								</block>
+							</block>
+						</block>
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/CryAction.cpp" totalTimeMS="0.372800" startTime="60296002195" stopTime="60296005923" args=""> 
+					</block>
+				</block>
+			</block>
+		</block>
+		<block name="CGameEngine::OnEditorNotifyEvent() OnBeginNewScene/SceneOpen" totalTimeMS="231.022903" startTime="60296009528" stopTime="60298319757" args=""> 
+			<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/GameEngine.cpp" totalTimeMS="20.801300" startTime="60296009534" stopTime="60296217547" args=""> 
+				<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/CryAction.cpp" totalTimeMS="20.799801" startTime="60296009542" stopTime="60296217540" args=""> 
+					<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.905500" startTime="60296009692" stopTime="60296018747" args="%engine%/Config/DefaultScripts/CompressionPolicy.xml"> 
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/XML/xml.cpp" totalTimeMS="0.898700" startTime="60296009757" stopTime="60296018744" args=""> 
+						</block>
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/ActionGame.cpp" totalTimeMS="18.803400" startTime="60296029217" stopTime="60296217251" args=""> 
+						<block name="CNetwork::SyncWithGame" totalTimeMS="0.252900" startTime="60296029226" stopTime="60296031755" args=""> 
+						</block>
+						<block name="CNetwork::SyncWithGame" totalTimeMS="17.718899" startTime="60296031759" stopTime="60296208948" args=""> 
+							<block name="SyncWithGame() lock unknown" totalTimeMS="17.717800" startTime="60296031768" stopTime="60296208946" args=""> 
+								<block name="CNetwork::UpdateLoop" totalTimeMS="17.713100" startTime="60296031801" stopTime="60296208932" args=""> 
+									<block name="Network DoMainTick" totalTimeMS="17.711102" startTime="60296031819" stopTime="60296208930" args=""> 
+										<block name="CNetwork::DoMainTick" totalTimeMS="17.704800" startTime="60296031826" stopTime="60296208874" args=""> 
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+						<block name="CNetwork::SyncWithGame" totalTimeMS="0.736000" startTime="60296208990" stopTime="60296216350" args=""> 
+							<block name="SyncWithGame() lock unknown" totalTimeMS="0.734900" startTime="60296209001" stopTime="60296216350" args=""> 
+								<block name="Network:FrameStart" totalTimeMS="0.727500" startTime="60296209030" stopTime="60296216305" args=""> 
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+			</block>
+			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/LevelSystem.cpp" totalTimeMS="24.658600" startTime="60296219498" stopTime="60296466084" args=""> 
+				<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryFlowGraph/FlowSystem/Modules/ModuleManager.cpp" totalTimeMS="23.426001" startTime="60296224294" stopTime="60296458554" args=""> 
+					<block name="CFlowGraphModuleManager::RescanModuleNames" totalTimeMS="0.146500" startTime="60296224335" stopTime="60296225800" args="Level Modules"> 
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/HyperGraph/FlowGraphManager.cpp" totalTimeMS="22.999699" startTime="60296225864" stopTime="60296455861" args=""> 
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryFlowGraph/FlowSystem/FlowGraph.cpp" totalTimeMS="0.366600" startTime="60296452173" stopTime="60296455839" args=""> 
+						</block>
+					</block>
+				</block>
+			</block>
+			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/ActionGame.cpp" totalTimeMS="185.355911" startTime="60296466140" stopTime="60298319699" args=""> 
+				<block name="CNetwork::SyncWithGame" totalTimeMS="0.202100" startTime="60296467418" stopTime="60296469439" args=""> 
+				</block>
+				<block name="CNetwork::SyncWithGame" totalTimeMS="0.140900" startTime="60297081595" stopTime="60297083004" args=""> 
+					<block name="SyncWithGame() lock unknown" totalTimeMS="0.140100" startTime="60297081602" stopTime="60297083003" args=""> 
+						<block name="CNetwork::UpdateLoop" totalTimeMS="0.137000" startTime="60297081628" stopTime="60297082998" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="CNetwork::SyncWithGame" totalTimeMS="0.429000" startTime="60298256515" stopTime="60298260805" args=""> 
+					<block name="CGameObjectSystem::BroadcastEvent" totalTimeMS="0.188100" startTime="60298256613" stopTime="60298258494" args=""> 
+					</block>
+					<block name="CGameObjectSystem::BroadcastEvent" totalTimeMS="0.198900" startTime="60298258737" stopTime="60298260726" args=""> 
+					</block>
+				</block>
+				<block name="CNetwork::SyncWithGame" totalTimeMS="4.106700" startTime="60298270302" stopTime="60298311369" args=""> 
+					<block name="CEntitySystem::SpawnPreallocatedEntity" totalTimeMS="4.036200" startTime="60298270461" stopTime="60298310823" args="schematyc::player"> 
+						<block name="CEntitySystem::SpawnPreallocatedEntity" totalTimeMS="4.031900" startTime="60298270503" stopTime="60298310822" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="CNetwork::SyncWithGame" totalTimeMS="0.324900" startTime="60298311378" stopTime="60298314627" args=""> 
+					<block name="SyncWithGame() lock unknown" totalTimeMS="0.322200" startTime="60298311404" stopTime="60298314626" args=""> 
+						<block name="CNetwork::UpdateLoop" totalTimeMS="0.312300" startTime="60298311495" stopTime="60298314618" args=""> 
+							<block name="Network DoMainTick" totalTimeMS="0.308700" startTime="60298311530" stopTime="60298314617" args=""> 
+								<block name="CNetwork::DoMainTick" totalTimeMS="0.305200" startTime="60298311536" stopTime="60298314588" args=""> 
+									<block name="Network Tick Channels" totalTimeMS="0.268300" startTime="60298311540" stopTime="60298314223" args=""> 
+										<block name="CCTPEndpoint:Update" totalTimeMS="0.253700" startTime="60298311555" stopTime="60298314092" args=""> 
+											<block name="CCTPEndpoint:SendPacket" totalTimeMS="0.250400" startTime="60298311586" stopTime="60298314090" args=""> 
+												<block name="CMessageQueue::WriteMessages" totalTimeMS="0.227000" startTime="60298311760" stopTime="60298314030" args=""> 
+												</block>
+											</block>
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+			</block>
+		</block>
+		<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Vegetation/VegetationMap.cpp" totalTimeMS="1.607700" startTime="60298592452" stopTime="60298608529" args=""> 
+		</block>
+		<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/FlashUI/FlashUI.cpp" totalTimeMS="0.121700" startTime="60298635497" stopTime="60298636714" args=""> 
+			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/FlashUI/FlashUI.cpp" totalTimeMS="0.115100" startTime="60298635532" stopTime="60298636683" args=""> 
+				<block name="CCryPak::IsFileExist" totalTimeMS="0.106700" startTime="60298635608" stopTime="60298636675" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.442800" startTime="60298653955" stopTime="60298658383" args="%EDITOR%\CryDesigner_TimeOfDay.xml"> 
+			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/XML/xml.cpp" totalTimeMS="0.437700" startTime="60298654003" stopTime="60298658380" args=""> 
+			</block>
+		</block>
+		<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.532300" startTime="60298659005" stopTime="60298664328" args="%EDITOR%\default_time_of_day.xml"> 
+			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/XML/xml.cpp" totalTimeMS="0.529900" startTime="60298659026" stopTime="60298664325" args=""> 
+			</block>
+		</block>
+		<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.373100" startTime="60298665043" stopTime="60298668774" args="%EDITOR%\LevelTemplates.xml"> 
+			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/XML/xml.cpp" totalTimeMS="0.371000" startTime="60298665062" stopTime="60298668772" args=""> 
+			</block>
+		</block>
+		<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.110400" startTime="60298668814" stopTime="60298669918" args="%EDITOR%\MapScreenshotSettings.xml"> 
+			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/XML/xml.cpp" totalTimeMS="0.107900" startTime="60298668837" stopTime="60298669916" args=""> 
+			</block>
+		</block>
+		<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.513200" startTime="60298669991" stopTime="60298675123" args="%EDITOR%\MbtTemplates.xml"> 
+			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/XML/xml.cpp" totalTimeMS="0.511100" startTime="60298670009" stopTime="60298675120" args=""> 
+			</block>
+		</block>
+		<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.104800" startTime="60298679109" stopTime="60298680157" args="%EDITOR%\ToolBox.xml"> 
+			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/XML/xml.cpp" totalTimeMS="0.102800" startTime="60298679127" stopTime="60298680155" args=""> 
+			</block>
+		</block>
+		<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.120300" startTime="60298680222" stopTime="60298681425" args="%EDITOR%\UserTools.xml"> 
+			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/XML/xml.cpp" totalTimeMS="0.118100" startTime="60298680241" stopTime="60298681422" args=""> 
+			</block>
+		</block>
+		<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/CryEditDoc.cpp" totalTimeMS="1.726300" startTime="60298681869" stopTime="60298699132" args=""> 
+			<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Mission.cpp" totalTimeMS="1.119500" startTime="60298687936" stopTime="60298699131" args=""> 
+			</block>
+		</block>
+		<block name="CMatMan::LoadMaterial" totalTimeMS="19.876499" startTime="60298702126" stopTime="60298900891" args="%ENGINE%/EngineAssets/Materials/Water/Ocean_default"> 
+			<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Material/MaterialManager.cpp" totalTimeMS="0.239300" startTime="60298702245" stopTime="60298704638" args=""> 
+				<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.175800" startTime="60298702359" stopTime="60298704117" args="%ENGINE%/EngineAssets/Materials/Water/Ocean_default.mtl"> 
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/XML/xml.cpp" totalTimeMS="0.169800" startTime="60298702417" stopTime="60298704115" args=""> 
+					</block>
+				</block>
+			</block>
+			<block name="SRenderThread::FlushAndWait" totalTimeMS="19.382799" startTime="60298705021" stopTime="60298898849" args=""> 
+				<block name="Wait - SyncMainWithRender" totalTimeMS="19.365501" startTime="60298705191" stopTime="60298898846" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="SWorldPhysEnviron::OnAreaChange" totalTimeMS="0.213300" startTime="60298924087" stopTime="60298926220" args=""> 
+		</block>
+		<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.704700" startTime="60298933246" stopTime="60298940293" args="%EDITOR%/default_time_of_day.xml"> 
+			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/XML/xml.cpp" totalTimeMS="0.697700" startTime="60298933313" stopTime="60298940290" args=""> 
+			</block>
+		</block>
+		<block name="CTimeOfDay::Update" totalTimeMS="8.643200" startTime="60298946593" stopTime="60299033025" args=""> 
+			<block name="CMatMan::LoadMaterial" totalTimeMS="8.399000" startTime="60298946778" stopTime="60299030768" args="%ENGINE%/EngineAssets/Materials/Sky/Sky"> 
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Material/MaterialManager.cpp" totalTimeMS="0.164700" startTime="60298946812" stopTime="60298948459" args=""> 
+					<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.112400" startTime="60298946907" stopTime="60298948031" args="%ENGINE%/EngineAssets/Materials/Sky/Sky.mtl"> 
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/XML/xml.cpp" totalTimeMS="0.109500" startTime="60298946934" stopTime="60298948029" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="SRenderThread::FlushAndWait" totalTimeMS="8.060000" startTime="60298948922" stopTime="60299029522" args=""> 
+					<block name="Wait - SyncMainWithRender" totalTimeMS="8.042900" startTime="60298949090" stopTime="60299029519" args=""> 
+					</block>
+				</block>
+			</block>
+		</block>
+		<block name="SRenderThread::FlushAndWait" totalTimeMS="0.163400" startTime="60299044155" stopTime="60299045789" args=""> 
+			<block name="Wait - SyncMainWithRender" totalTimeMS="0.147400" startTime="60299044314" stopTime="60299045788" args=""> 
+			</block>
+		</block>
+		<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryEntitySystem/EntitySystem.cpp" totalTimeMS="0.914000" startTime="60299046572" stopTime="60299055712" args=""> 
+		</block>
+		<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CryAction/FlashUI/FlashUI.cpp" totalTimeMS="0.115400" startTime="60299055731" stopTime="60299056885" args=""> 
+		</block>
+		<block name="CGameEngine::OnEditorNotifyEvent() OnEndNewScene" totalTimeMS="8.098100" startTime="60299058422" stopTime="60299139403" args=""> 
+			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/Cry3DEngine/3dEngineLoad.cpp" totalTimeMS="7.879500" startTime="60299060598" stopTime="60299139393" args=""> 
+				<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Renderer.cpp" totalTimeMS="7.817100" startTime="60299061173" stopTime="60299139344" args=""> 
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Renderer.cpp" totalTimeMS="7.717200" startTime="60299062172" stopTime="60299139344" args=""> 
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Textures/Texture.cpp" totalTimeMS="7.716000" startTime="60299062181" stopTime="60299139341" args=""> 
+							<block name="SRenderThread::FlushAndWait" totalTimeMS="7.606400" startTime="60299062501" stopTime="60299138565" args=""> 
+								<block name="Wait - SyncMainWithRender" totalTimeMS="7.595400" startTime="60299062608" stopTime="60299138562" args=""> 
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+			</block>
+		</block>
+		<block name="CEditorEnvironmentWindow::OnEditorNotifyEvent OnEndSceneOpen/NewScene" totalTimeMS="0.658700" startTime="60299139703" stopTime="60299146290" args=""> 
+			<block name="CCryPak::IsFileExist" totalTimeMS="0.101800" startTime="60299140919" stopTime="60299141937" args=""> 
+			</block>
+		</block>
+		<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/LevelEditor/LevelModelsManager.cpp" totalTimeMS="0.598800" startTime="60299146303" stopTime="60299152291" args=""> 
+		</block>
+		<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Vegetation/VegetationModel.cpp" totalTimeMS="0.820300" startTime="60299154516" stopTime="60299162719" args=""> 
+		</block>
+		<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Vegetation/VegetationMap.cpp" totalTimeMS="0.256900" startTime="60299206741" stopTime="60299209310" args=""> 
+		</block>
+		<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/CryEditDoc.cpp" totalTimeMS="0.377700" startTime="60299220276" stopTime="60299224053" args=""> 
+		</block>
+		<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/CryEditDoc.cpp" totalTimeMS="19.122099" startTime="60299224061" stopTime="60299415282" args=""> 
+			<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/CryEditDoc.cpp" totalTimeMS="18.554001" startTime="60299229715" stopTime="60299415255" args=""> 
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/CryEditDoc.cpp" totalTimeMS="10.496900" startTime="60299244026" stopTime="60299348995" args=""> 
+					<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Mission.cpp" totalTimeMS="6.563000" startTime="60299245582" stopTime="60299311212" args=""> 
+						<block name="CCryPak::FOpen" totalTimeMS="0.272700" startTime="60299285227" stopTime="60299287954" args="assets\libs\environmentpresets\levels\gg.xml"> 
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.121700" startTime="60299303454" stopTime="60299304671" args="assets/levels/gg/Layers/Terrain.lyr"> 
+						</block>
+						<block name="CCryPak::FOpen" totalTimeMS="0.116100" startTime="60299308781" stopTime="60299309942" args="assets/levels/gg/Layers/Main.lyr"> 
+						</block>
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.211300" startTime="60299311971" stopTime="60299314084" args="assets/levels/gg/LevelData/TimeOfDay.tmp"> 
+					</block>
+					<block name="CCryPak::FOpen" totalTimeMS="0.118000" startTime="60299324072" stopTime="60299325252" args="assets/levels/gg/LevelData/Environment.tmp"> 
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/BaseLibraryManager.cpp" totalTimeMS="0.180900" startTime="60299333220" stopTime="60299335029" args=""> 
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/GameTokens/GameTokenManager.cpp" totalTimeMS="1.143900" startTime="60299335042" stopTime="60299346481" args=""> 
+						<block name="CCryPak::FOpen" totalTimeMS="0.417800" startTime="60299337158" stopTime="60299341336" args="assets/levels/gg/LevelData/GameTokens.tmp"> 
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.350600" startTime="60299337822" stopTime="60299341328" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/BaseLibraryManager.cpp" totalTimeMS="0.196300" startTime="60299346492" stopTime="60299348455" args=""> 
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/Plugins/EditorCommon/Util/XmlArchive.cpp" totalTimeMS="0.352900" startTime="60299349044" stopTime="60299352573" args=""> 
+					<block name="CCryPak::FOpen" totalTimeMS="0.224100" startTime="60299349067" stopTime="60299351308" args="assets/levels/gg/gg.level"> 
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.186200" startTime="60299349441" stopTime="60299351303" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Terrain/TerrainManager.cpp" totalTimeMS="4.218900" startTime="60299352783" stopTime="60299394972" args=""> 
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Terrain/TerrainManager.cpp" totalTimeMS="0.813700" startTime="60299395019" stopTime="60299403156" args=""> 
+					<block name="CCryPak::FOpen" totalTimeMS="0.152300" startTime="60299395729" stopTime="60299397252" args="assets/levels/gg/LevelData/TerrainTexture.tmp"> 
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Vegetation/VegetationMap.cpp" totalTimeMS="0.881500" startTime="60299403229" stopTime="60299412044" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/CryEditDoc.cpp" totalTimeMS="5.470700" startTime="60299415343" stopTime="60299470050" args=""> 
+			<block name="CCryPak::FOpen" totalTimeMS="0.182400" startTime="60299457419" stopTime="60299459243" args="assets\libs\environmentpresets\levels\gg.xml"> 
+				<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.127200" startTime="60299457968" stopTime="60299459240" args=""> 
+				</block>
+			</block>
+			<block name="CCryPak::FOpen" totalTimeMS="0.124800" startTime="60299468106" stopTime="60299469354" args="g:\gungame\user\sandbox\lastLoadPath.preset"> 
+			</block>
+		</block>
+		<block name="CCryPak::FOpen" totalTimeMS="0.125300" startTime="60299470676" stopTime="60299471929" args="assets/levels/gg/LevelData/Objectives.tmp"> 
+		</block>
+		<block name="CCryPak::OpenArchive" totalTimeMS="0.115500" startTime="60299484278" stopTime="60299485433" args="assets/levels/gg/level.pak"> 
+		</block>
+		<block name="CCryPak::FOpen" totalTimeMS="0.143400" startTime="60299517249" stopTime="60299518683" args="assets/levels/gg/areasMission0.bai"> 
+			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.102900" startTime="60299517651" stopTime="60299518680" args=""> 
+			</block>
+		</block>
+		<block name="CCryPak::FOpen" totalTimeMS="0.123000" startTime="60299523340" stopTime="60299524570" args="assets/levels/gg/\areasMission0.bai"> 
+		</block>
+		<block name="CCryPak::OpenArchive" totalTimeMS="0.138300" startTime="60299537942" stopTime="60299539325" args="assets\levels\gg\level.pak"> 
+		</block>
+		<block name="CCryPak::FOpen" totalTimeMS="0.120100" startTime="60299545908" stopTime="60299547109" args="assets/levels/gg//filelist.xml"> 
+		</block>
+		<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/GameEngine.cpp" totalTimeMS="14.629200" startTime="60299548518" stopTime="60299694810" args=""> 
+			<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/Cry3DEngine/3dEngineLoad.cpp" totalTimeMS="14.296400" startTime="60299550981" stopTime="60299693945" args=""> 
+				<block name="CMatMan::LoadMaterial" totalTimeMS="8.417400" startTime="60299555495" stopTime="60299639669" args="%ENGINE%/EngineAssets/Materials/Fog/FogVolumeEllipsoid"> 
+					<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Material/MaterialManager.cpp" totalTimeMS="0.176700" startTime="60299555519" stopTime="60299557286" args=""> 
+						<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.123300" startTime="60299555585" stopTime="60299556818" args="%ENGINE%/EngineAssets/Materials/Fog/FogVolumeEllipsoid.mtl"> 
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/XML/xml.cpp" totalTimeMS="0.119000" startTime="60299555625" stopTime="60299556815" args=""> 
+							</block>
+						</block>
+					</block>
+					<block name="CRenderer::EF_LoadShaderItem" totalTimeMS="0.182400" startTime="60299557333" stopTime="60299559157" args="FogVolume.Ellipsoid"> 
+					</block>
+					<block name="SRenderThread::FlushAndWait" totalTimeMS="7.955900" startTime="60299559164" stopTime="60299638723" args=""> 
+						<block name="Wait - SyncMainWithRender" totalTimeMS="7.935900" startTime="60299559359" stopTime="60299638718" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="CMatMan::LoadMaterial" totalTimeMS="0.553800" startTime="60299639690" stopTime="60299645228" args="%ENGINE%/EngineAssets/Materials/Fog/FogVolumeBox"> 
+					<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Material/MaterialManager.cpp" totalTimeMS="0.147600" startTime="60299639727" stopTime="60299641203" args=""> 
+					</block>
+					<block name="SRenderThread::FlushAndWait" totalTimeMS="0.330600" startTime="60299641353" stopTime="60299644659" args=""> 
+						<block name="Wait - SyncMainWithRender" totalTimeMS="0.320000" startTime="60299641458" stopTime="60299644658" args=""> 
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.622100" startTime="60299645600" stopTime="60299651821" args=""> 
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.621600" startTime="60299645602" stopTime="60299651818" args=""> 
+						<block name="ZipDir::Cache::DecompressFile" totalTimeMS="0.486500" startTime="60299645891" stopTime="60299650756" args=""> 
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/ZipDirStructures.cpp" totalTimeMS="0.486200" startTime="60299645893" stopTime="60299650755" args=""> 
+								<block name="ZlibInflateElement_Impl" totalTimeMS="0.485900" startTime="60299645896" stopTime="60299650755" args=""> 
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="CRenderer::CreateRenderMeshInitialized" totalTimeMS="0.292900" startTime="60299665187" stopTime="60299668116" args=""> 
+				</block>
+				<block name="SRenderThread::FlushAndWait" totalTimeMS="0.464900" startTime="60299668314" stopTime="60299672963" args=""> 
+					<block name="Wait - SyncMainWithRender" totalTimeMS="0.454800" startTime="60299668414" stopTime="60299672962" args=""> 
+					</block>
+				</block>
+				<block name="SRenderThread::FlushAndWait" totalTimeMS="0.200300" startTime="60299672970" stopTime="60299674973" args=""> 
+					<block name="Wait - SyncMainWithRender" totalTimeMS="0.194900" startTime="60299673024" stopTime="60299674973" args=""> 
+					</block>
+				</block>
+				<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="0.313800" startTime="60299675054" stopTime="60299678192" args="%ENGINE%/EngineAssets/Icons/LowMemoryUsage.dds"> 
+					<block name="CTexture::LoadFromImage" totalTimeMS="0.312600" startTime="60299675064" stopTime="60299678190" args="%ENGINE%/EngineAssets/Icons/LowMemoryUsage.dds"> 
+					</block>
+				</block>
+				<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="0.271200" startTime="60299678258" stopTime="60299680970" args="%ENGINE%/EngineAssets/Icons/AverageMemoryUsage.dds"> 
+					<block name="CTexture::LoadFromImage" totalTimeMS="0.270700" startTime="60299678261" stopTime="60299680968" args="%ENGINE%/EngineAssets/Icons/AverageMemoryUsage.dds"> 
+					</block>
+				</block>
+				<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="0.248100" startTime="60299681042" stopTime="60299683523" args="%ENGINE%/EngineAssets/Icons/HighMemoryUsage.dds"> 
+					<block name="CTexture::LoadFromImage" totalTimeMS="0.247600" startTime="60299681046" stopTime="60299683522" args="%ENGINE%/EngineAssets/Icons/HighMemoryUsage.dds"> 
+					</block>
+				</block>
+				<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="0.242600" startTime="60299683584" stopTime="60299686010" args="%ENGINE%/EngineAssets/Icons/LivePreview.dds"> 
+					<block name="CTexture::LoadFromImage" totalTimeMS="0.242100" startTime="60299683587" stopTime="60299686008" args="%ENGINE%/EngineAssets/Icons/LivePreview.dds"> 
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/Cry3DEngine/3dEngineLoad.cpp" totalTimeMS="0.664800" startTime="60299686090" stopTime="60299692738" args=""> 
+					<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.190100" startTime="60299688975" stopTime="60299690876" args="assets/levels/gg/LevelParticles.xml"> 
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/XML/xml.cpp" totalTimeMS="0.184200" startTime="60299689031" stopTime="60299690873" args=""> 
+						</block>
+					</block>
+				</block>
+			</block>
+		</block>
+		<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Terrain/Heightmap.cpp" totalTimeMS="45.813000" startTime="60299706218" stopTime="60300164348" args=""> 
+			<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Terrain/TerrainManager.cpp" totalTimeMS="28.460499" startTime="60299706224" stopTime="60299990829" args=""> 
+				<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/Cry3DEngine/terrain_det_tex.cpp" totalTimeMS="1.093100" startTime="60299706602" stopTime="60299717533" args=""> 
+					<block name="CMatMan::LoadMaterial" totalTimeMS="0.845900" startTime="60299707032" stopTime="60299715491" args="%ENGINE%/EngineAssets/Materials/material_terrain_default"> 
+						<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Material/MaterialManager.cpp" totalTimeMS="0.148500" startTime="60299707069" stopTime="60299708554" args=""> 
+						</block>
+						<block name="CRenderer::EF_LoadShaderItem" totalTimeMS="0.330600" startTime="60299708591" stopTime="60299711897" args="Terrain.Layer"> 
+							<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="0.310000" startTime="60299708741" stopTime="60299711841" args="%ENGINE%/EngineAssets/TextureMsg/DefaultNoUVs.dds"> 
+								<block name="CTexture::LoadFromImage" totalTimeMS="0.309500" startTime="60299708744" stopTime="60299711839" args="%ENGINE%/EngineAssets/TextureMsg/DefaultNoUVs.dds"> 
+									<block name="Renderer:Texture_StreamPrepare" totalTimeMS="0.308200" startTime="60299708754" stopTime="60299711836" args=""> 
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+				<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Terrain/Heightmap.cpp" totalTimeMS="27.023399" startTime="60299719730" stopTime="60299989964" args=""> 
+					<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Terrain/Heightmap.cpp" totalTimeMS="27.022900" startTime="60299719732" stopTime="60299989961" args=""> 
+						<block name="CCryPak::OpenArchive" totalTimeMS="0.194700" startTime="60299735107" stopTime="60299737054" args="assets/levels/gg/TerrainTexture.pak"> 
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.142700" startTime="60299735557" stopTime="60299736984" args=""> 
+							</block>
+						</block>
+						<block name="CCryPak::OpenArchive" totalTimeMS="0.151600" startTime="60299738193" stopTime="60299739709" args="assets\levels\gg\terraintexture.pak"> 
+						</block>
+						<block name="CTerrain::SetTerrainElevation" totalTimeMS="17.524799" startTime="60299812646" stopTime="60299987894" args=""> 
+						</block>
+					</block>
+				</block>
+			</block>
+			<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Terrain/Heightmap.cpp" totalTimeMS="17.350700" startTime="60299990839" stopTime="60300164346" args=""> 
+				<block name="CTerrain::SetTerrainElevation" totalTimeMS="15.761400" startTime="60300004526" stopTime="60300162140" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="CMatMan::LoadMaterial" totalTimeMS="8.604400" startTime="60300167472" stopTime="60300253516" args="%ENGINE%/EngineAssets/Materials/Water/WaterOceanBottom"> 
+			<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Material/MaterialManager.cpp" totalTimeMS="0.206400" startTime="60300167496" stopTime="60300169560" args=""> 
+				<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.155100" startTime="60300167587" stopTime="60300169138" args="%ENGINE%/EngineAssets/Materials/Water/WaterOceanBottom.mtl"> 
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/XML/xml.cpp" totalTimeMS="0.150100" startTime="60300167635" stopTime="60300169136" args=""> 
+					</block>
+				</block>
+			</block>
+			<block name="CRenderer::EF_LoadShaderItem" totalTimeMS="0.168600" startTime="60300169608" stopTime="60300171294" args="WaterOceanBottom"> 
+			</block>
+			<block name="SRenderThread::FlushAndWait" totalTimeMS="8.097900" startTime="60300171301" stopTime="60300252280" args=""> 
+				<block name="Wait - SyncMainWithRender" totalTimeMS="8.078600" startTime="60300171492" stopTime="60300252278" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="CMatMan::LoadMaterial" totalTimeMS="17.200100" startTime="60300253558" stopTime="60300425559" args="%ENGINE%/EngineAssets/Materials/Fog/OceanInto"> 
+			<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Material/MaterialManager.cpp" totalTimeMS="0.174600" startTime="60300253603" stopTime="60300255349" args=""> 
+				<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.119800" startTime="60300253717" stopTime="60300254915" args="%ENGINE%/EngineAssets/Materials/Fog/OceanInto.mtl"> 
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/XML/xml.cpp" totalTimeMS="0.111800" startTime="60300253795" stopTime="60300254913" args=""> 
+					</block>
+				</block>
+			</block>
+			<block name="CRenderer::EF_LoadShaderItem" totalTimeMS="0.160500" startTime="60300255374" stopTime="60300256979" args="WaterFogVolume.OceanInto"> 
+			</block>
+			<block name="SRenderThread::FlushAndWait" totalTimeMS="16.721300" startTime="60300256986" stopTime="60300424199" args=""> 
+				<block name="Wait - SyncMainWithRender" totalTimeMS="16.710400" startTime="60300257092" stopTime="60300424196" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="CMatMan::LoadMaterial" totalTimeMS="0.437000" startTime="60300425588" stopTime="60300429958" args="%ENGINE%/EngineAssets/Materials/Fog/OceanOutof"> 
+			<block name="D:/jk/workspace/gamesdk_release/Code/Sandbox/EditorQt/Material/MaterialManager.cpp" totalTimeMS="0.189500" startTime="60300425634" stopTime="60300427529" args=""> 
+				<block name="CSystem::LoadXmlFromFile" totalTimeMS="0.115900" startTime="60300425739" stopTime="60300426898" args="%ENGINE%/EngineAssets/Materials/Fog/OceanOutof.mtl"> 
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/XML/xml.cpp" totalTimeMS="0.108100" startTime="60300425815" stopTime="60300426896" args=""> 
+					</block>
+				</block>
+			</block>
+			<block name="SRenderThread::FlushAndWait" totalTimeMS="0.164700" startTime="60300427720" stopTime="60300429367" args=""> 
+				<block name="Wait - SyncMainWithRender" totalTimeMS="0.154500" startTime="60300427821" stopTime="60300429366" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="CMatMan::LoadMaterial" totalTimeMS="0.263900" startTime="60300430044" stopTime="60300432683" args="%ENGINE%/EngineAssets/Materials/Fog/OceanIntoLowSpec"> 
+		</block>
+		<block name="CMatMan::LoadMaterial" totalTimeMS="0.276600" startTime="60300432698" stopTime="60300435464" args="%ENGINE%/EngineAssets/Materials/Fog/OceanOutofLowSpec"> 
+			<block name="SRenderThread::FlushAndWait" totalTimeMS="0.116300" startTime="60300433745" stopTime="60300434908" args=""> 
+				<block name="Wait - SyncMainWithRender" totalTimeMS="0.104800" startTime="60300433859" stopTime="60300434907" args=""> 
+				</block>
+			</block>
+		</block>
+	</thread>
+	<thread name="RenderThread" totalTimeMS="451.351410" startTime="60295923654" stopTime="60300437168" totalBlocks="3748"> 
+		<block name="Loop: RenderThread" totalTimeMS="0.153200" startTime="60295949680" stopTime="60295951212" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="0.151600" startTime="60295949691" stopTime="60295951207" args=""> 
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="0.288800" startTime="60295951213" stopTime="60295954101" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="0.288400" startTime="60295951214" stopTime="60295954098" args=""> 
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="4.544000" startTime="60295954718" stopTime="60296000158" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="4.527300" startTime="60295954719" stopTime="60295999992" args=""> 
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="3.115400" startTime="60296001047" stopTime="60296032201" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="0.783700" startTime="60296001048" stopTime="60296008885" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="1.967000" startTime="60296009414" stopTime="60296029084" args=""> 
+				<block name="CRenderMesh::Tick" totalTimeMS="1.965800" startTime="60296009420" stopTime="60296029078" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_EndFrame" totalTimeMS="0.239400" startTime="60296029803" stopTime="60296032197" args=""> 
+				<block name="CD3D9Renderer::RT_EndFrame" totalTimeMS="0.238900" startTime="60296029807" stopTime="60296032196" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="259.607605" startTime="60296032201" stopTime="60298628277" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="259.542999" startTime="60296032204" stopTime="60298627634" args=""> 
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="27.025501" startTime="60298628359" stopTime="60298898614" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="7.683100" startTime="60298628360" stopTime="60298705191" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="19.341200" startTime="60298705194" stopTime="60298898606" args=""> 
+				<block name="Renderer: RT_ParseShader" totalTimeMS="19.336899" startTime="60298705213" stopTime="60298898582" args=""> 
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.197700" startTime="60298707164" stopTime="60298709141" args=""> 
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.197300" startTime="60298707166" stopTime="60298709139" args=""> 
+							<block name="ZipDir::Cache::DecompressFile" totalTimeMS="0.130200" startTime="60298707317" stopTime="60298708619" args=""> 
+								<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/ZipDirStructures.cpp" totalTimeMS="0.129900" startTime="60298707319" stopTime="60298708618" args=""> 
+									<block name="ZlibInflateElement_Impl" totalTimeMS="0.129600" startTime="60298707321" stopTime="60298708617" args=""> 
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.317000" startTime="60298710264" stopTime="60298713434" args=""> 
+					</block>
+					<block name="CShaderManBin::ParseBinFX" totalTimeMS="18.508200" startTime="60298713479" stopTime="60298898561" args="%ENGINE%/Shaders/Cache/D3D11/Water.cfxb"> 
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="15.503800" startTime="60298742577" stopTime="60298897615" args=""> 
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="3.486400" startTime="60298743655" stopTime="60298778519" args=""> 
+								<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.580600" startTime="60298744213" stopTime="60298750019" args=""> 
+								</block>
+								<block name="Renderer:Resource_Open" totalTimeMS="0.181200" startTime="60298751761" stopTime="60298753573" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.178300" startTime="60298751763" stopTime="60298753546" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.176200" startTime="60298751782" stopTime="60298753544" args="%USER%/Shaders/Cache/D3D11/CGVShaders/Water@WaterVS"> 
+											<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.106800" startTime="60298752473" stopTime="60298753541" args=""> 
+											</block>
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Flush" totalTimeMS="0.431300" startTime="60298753651" stopTime="60298757964" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.137200" startTime="60298753656" stopTime="60298755028" args="%USER%/Shaders/Cache/D3D11/lookupdata.bin"> 
+									</block>
+								</block>
+								<block name="Renderer:Resource_Open" totalTimeMS="0.240500" startTime="60298758749" stopTime="60298761154" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.184200" startTime="60298759309" stopTime="60298761151" args=""> 
+										<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.183400" startTime="60298759313" stopTime="60298761147" args=""> 
+											<block name="ZipDir_Cache_ReadFile" totalTimeMS="0.182100" startTime="60298759324" stopTime="60298761145" args=""> 
+												<block name="CIOWrapper::Fread" totalTimeMS="0.179100" startTime="60298759347" stopTime="60298761138" args=""> 
+												</block>
+											</block>
+										</block>
+									</block>
+								</block>
+								<block name="CHWShader_D3D::mfPrecacheAllCombinations()" totalTimeMS="1.473600" startTime="60298761246" stopTime="60298775982" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.162500" startTime="60298761335" stopTime="60298762960" args=""> 
+										<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.161200" startTime="60298761336" stopTime="60298762948" args=""> 
+											<block name="ZipDir_Cache_ReadFile" totalTimeMS="0.160400" startTime="60298761337" stopTime="60298762941" args=""> 
+												<block name="CIOWrapper::Fread" totalTimeMS="0.158000" startTime="60298761344" stopTime="60298762924" args=""> 
+												</block>
+											</block>
+										</block>
+									</block>
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.168400" startTime="60298766304" stopTime="60298767988" args=""> 
+										<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.167700" startTime="60298766308" stopTime="60298767985" args=""> 
+											<block name="ZipDir_Cache_ReadFile" totalTimeMS="0.166600" startTime="60298766317" stopTime="60298767983" args=""> 
+												<block name="CIOWrapper::Fread" totalTimeMS="0.163000" startTime="60298766347" stopTime="60298767977" args=""> 
+												</block>
+											</block>
+										</block>
+									</block>
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.161400" startTime="60298769239" stopTime="60298770853" args=""> 
+										<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.161000" startTime="60298769240" stopTime="60298770850" args=""> 
+											<block name="ZipDir_Cache_ReadFile" totalTimeMS="0.160400" startTime="60298769244" stopTime="60298770848" args=""> 
+												<block name="CIOWrapper::Fread" totalTimeMS="0.158000" startTime="60298769262" stopTime="60298770842" args=""> 
+												</block>
+											</block>
+										</block>
+									</block>
+								</block>
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="6.736600" startTime="60298778527" stopTime="60298845893" args=""> 
+								<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.597100" startTime="60298778669" stopTime="60298784640" args=""> 
+								</block>
+								<block name="Renderer:Resource_Open" totalTimeMS="0.177700" startTime="60298786090" stopTime="60298787867" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.176100" startTime="60298786091" stopTime="60298787852" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.175600" startTime="60298786093" stopTime="60298787849" args="%USER%/Shaders/Cache/D3D11/CGPShaders/Water@WaterPS"> 
+											<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.106800" startTime="60298786779" stopTime="60298787847" args=""> 
+											</block>
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Flush" totalTimeMS="0.424700" startTime="60298787922" stopTime="60298792169" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.133100" startTime="60298787926" stopTime="60298789257" args="%USER%/Shaders/Cache/D3D11/lookupdata.bin"> 
+									</block>
+								</block>
+								<block name="Renderer:Resource_Open" totalTimeMS="0.235900" startTime="60298792962" stopTime="60298795321" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.180800" startTime="60298793509" stopTime="60298795317" args=""> 
+										<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.180300" startTime="60298793511" stopTime="60298795314" args=""> 
+											<block name="ZipDir_Cache_ReadFile" totalTimeMS="0.179700" startTime="60298793514" stopTime="60298795311" args=""> 
+												<block name="CIOWrapper::Fread" totalTimeMS="0.175700" startTime="60298793547" stopTime="60298795304" args=""> 
+												</block>
+											</block>
+										</block>
+									</block>
+								</block>
+								<block name="CHWShader_D3D::mfPrecacheAllCombinations()" totalTimeMS="4.808100" startTime="60298795414" stopTime="60298843495" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.159300" startTime="60298795482" stopTime="60298797075" args=""> 
+										<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.158900" startTime="60298795483" stopTime="60298797072" args=""> 
+											<block name="ZipDir_Cache_ReadFile" totalTimeMS="0.158600" startTime="60298795484" stopTime="60298797070" args=""> 
+												<block name="CIOWrapper::Fread" totalTimeMS="0.157400" startTime="60298795490" stopTime="60298797064" args=""> 
+												</block>
+											</block>
+										</block>
+									</block>
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.144400" startTime="60298799946" stopTime="60298801390" args=""> 
+										<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.143900" startTime="60298799947" stopTime="60298801386" args=""> 
+											<block name="ZipDir_Cache_ReadFile" totalTimeMS="0.143200" startTime="60298799951" stopTime="60298801383" args=""> 
+												<block name="CIOWrapper::Fread" totalTimeMS="0.141200" startTime="60298799964" stopTime="60298801376" args=""> 
+												</block>
+											</block>
+										</block>
+									</block>
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.195300" startTime="60298801929" stopTime="60298803882" args=""> 
+										<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.194800" startTime="60298801931" stopTime="60298803879" args=""> 
+											<block name="ZipDir_Cache_ReadFile" totalTimeMS="0.194300" startTime="60298801934" stopTime="60298803877" args=""> 
+												<block name="CIOWrapper::Fread" totalTimeMS="0.192000" startTime="60298801952" stopTime="60298803872" args=""> 
+												</block>
+											</block>
+										</block>
+									</block>
+								</block>
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.898700" startTime="60298845900" stopTime="60298854887" args=""> 
+								<block name="Renderer:Resource_Open" totalTimeMS="0.171700" startTime="60298847291" stopTime="60298849008" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.170000" startTime="60298847292" stopTime="60298848992" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.169700" startTime="60298847293" stopTime="60298848990" args="%USER%/Shaders/Cache/D3D11/CGGShaders/Water@$AutoGS_MultiRes"> 
+											<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.105100" startTime="60298847936" stopTime="60298848987" args=""> 
+											</block>
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Flush" totalTimeMS="0.414500" startTime="60298849064" stopTime="60298853209" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.129400" startTime="60298849069" stopTime="60298850363" args="%USER%/Shaders/Cache/D3D11/lookupdata.bin"> 
+									</block>
+								</block>
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="2.140400" startTime="60298854889" stopTime="60298876293" args=""> 
+								<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.263000" startTime="60298854999" stopTime="60298857629" args=""> 
+								</block>
+								<block name="Renderer:Resource_Open" totalTimeMS="0.200100" startTime="60298858482" stopTime="60298860483" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.198500" startTime="60298858484" stopTime="60298860469" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.198300" startTime="60298858484" stopTime="60298860467" args="%USER%/Shaders/Cache/D3D11/CGHShaders/Water@WaterHS"> 
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Flush" totalTimeMS="0.375100" startTime="60298860517" stopTime="60298864268" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.124500" startTime="60298860520" stopTime="60298861765" args="%USER%/Shaders/Cache/D3D11/lookupdata.bin"> 
+									</block>
+								</block>
+								<block name="Renderer:Resource_Open" totalTimeMS="0.197400" startTime="60298864839" stopTime="60298866813" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.158000" startTime="60298865230" stopTime="60298866810" args=""> 
+										<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.157400" startTime="60298865232" stopTime="60298866806" args=""> 
+											<block name="ZipDir_Cache_ReadFile" totalTimeMS="0.156700" startTime="60298865237" stopTime="60298866804" args=""> 
+												<block name="CIOWrapper::Fread" totalTimeMS="0.154200" startTime="60298865254" stopTime="60298866796" args=""> 
+												</block>
+											</block>
+										</block>
+									</block>
+								</block>
+								<block name="CHWShader_D3D::mfPrecacheAllCombinations()" totalTimeMS="0.744800" startTime="60298866861" stopTime="60298874309" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.276200" startTime="60298866954" stopTime="60298869716" args=""> 
+										<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.274000" startTime="60298866973" stopTime="60298869713" args=""> 
+											<block name="ZipDir_Cache_ReadFile" totalTimeMS="0.273700" startTime="60298866974" stopTime="60298869711" args=""> 
+												<block name="CIOWrapper::Fread" totalTimeMS="0.272300" startTime="60298866982" stopTime="60298869705" args=""> 
+												</block>
+											</block>
+										</block>
+									</block>
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.199900" startTime="60298871119" stopTime="60298873118" args=""> 
+										<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.198900" startTime="60298871122" stopTime="60298873111" args=""> 
+											<block name="ZipDir_Cache_ReadFile" totalTimeMS="0.197900" startTime="60298871128" stopTime="60298873107" args=""> 
+												<block name="CIOWrapper::Fread" totalTimeMS="0.194900" startTime="60298871149" stopTime="60298873098" args=""> 
+												</block>
+											</block>
+										</block>
+									</block>
+								</block>
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="2.121900" startTime="60298876297" stopTime="60298897516" args=""> 
+								<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.283900" startTime="60298876408" stopTime="60298879247" args=""> 
+								</block>
+								<block name="Renderer:Resource_Open" totalTimeMS="0.230300" startTime="60298880373" stopTime="60298882676" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.228600" startTime="60298880374" stopTime="60298882660" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.228300" startTime="60298880375" stopTime="60298882658" args="%USER%/Shaders/Cache/D3D11/CGDShaders/Water@WaterDS"> 
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Flush" totalTimeMS="0.374100" startTime="60298882714" stopTime="60298886455" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.124800" startTime="60298882717" stopTime="60298883965" args="%USER%/Shaders/Cache/D3D11/lookupdata.bin"> 
+									</block>
+								</block>
+								<block name="Renderer:Resource_Open" totalTimeMS="0.185900" startTime="60298887037" stopTime="60298888896" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.142400" startTime="60298887469" stopTime="60298888893" args=""> 
+										<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.141600" startTime="60298887472" stopTime="60298888888" args=""> 
+											<block name="ZipDir_Cache_ReadFile" totalTimeMS="0.140500" startTime="60298887479" stopTime="60298888884" args=""> 
+												<block name="CIOWrapper::Fread" totalTimeMS="0.137400" startTime="60298887503" stopTime="60298888877" args=""> 
+												</block>
+											</block>
+										</block>
+									</block>
+								</block>
+								<block name="CHWShader_D3D::mfPrecacheAllCombinations()" totalTimeMS="0.618500" startTime="60298888972" stopTime="60298895157" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.165400" startTime="60298889061" stopTime="60298890715" args=""> 
+										<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.165000" startTime="60298889062" stopTime="60298890712" args=""> 
+											<block name="ZipDir_Cache_ReadFile" totalTimeMS="0.164700" startTime="60298889063" stopTime="60298890710" args=""> 
+												<block name="CIOWrapper::Fread" totalTimeMS="0.163500" startTime="60298889070" stopTime="60298890705" args=""> 
+												</block>
+											</block>
+										</block>
+									</block>
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.162800" startTime="60298892182" stopTime="60298893810" args=""> 
+										<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.162400" startTime="60298892183" stopTime="60298893807" args=""> 
+											<block name="ZipDir_Cache_ReadFile" totalTimeMS="0.161700" startTime="60298892187" stopTime="60298893804" args=""> 
+												<block name="CIOWrapper::Fread" totalTimeMS="0.160000" startTime="60298892198" stopTime="60298893798" args=""> 
+												</block>
+											</block>
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="13.044500" startTime="60298898838" stopTime="60299029283" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="5.025300" startTime="60298898840" stopTime="60298949093" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.116400" startTime="60298949106" stopTime="60298950270" args=""> 
+				<block name="CShaderResources::RT_UpdateConstants" totalTimeMS="0.114300" startTime="60298949119" stopTime="60298950262" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="7.799800" startTime="60298951277" stopTime="60299029275" args=""> 
+				<block name="Renderer: RT_ParseShader" totalTimeMS="7.797300" startTime="60298951284" stopTime="60299029257" args=""> 
+					<block name="CCryPak::FOpen" totalTimeMS="0.111400" startTime="60298951396" stopTime="60298952510" args="assets/GameShaders/HWScripts/CryFX/SkyHDR.cfx"> 
+					</block>
+					<block name="CShaderManBin::ParseBinFX" totalTimeMS="7.377400" startTime="60298955470" stopTime="60299029244" args="%ENGINE%/Shaders/Cache/D3D11/SkyHDR.cfxb"> 
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="3.000800" startTime="60298972778" stopTime="60299002786" args=""> 
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="1.186500" startTime="60298973086" stopTime="60298984951" args=""> 
+								<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.164800" startTime="60298973269" stopTime="60298974917" args=""> 
+								</block>
+								<block name="Renderer:Resource_Open" totalTimeMS="0.169300" startTime="60298975998" stopTime="60298977691" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.167700" startTime="60298975999" stopTime="60298977676" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.167400" startTime="60298976000" stopTime="60298977674" args="%USER%/Shaders/Cache/D3D11/CGVShaders/SkyHDR@SkyHDRVS"> 
+											<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.103300" startTime="60298976638" stopTime="60298977671" args=""> 
+											</block>
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Flush" totalTimeMS="0.438400" startTime="60298977747" stopTime="60298982131" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.132900" startTime="60298977751" stopTime="60298979080" args="%USER%/Shaders/Cache/D3D11/lookupdata.bin"> 
+									</block>
+								</block>
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.974700" startTime="60298984954" stopTime="60298994701" args=""> 
+								<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.110500" startTime="60298985048" stopTime="60298986153" args=""> 
+								</block>
+								<block name="Renderer:Resource_Open" totalTimeMS="0.137600" startTime="60298987121" stopTime="60298988497" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.136200" startTime="60298987122" stopTime="60298988484" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.135900" startTime="60298987123" stopTime="60298988482" args="%USER%/Shaders/Cache/D3D11/CGPShaders/SkyHDR@SkyHDRPS"> 
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Flush" totalTimeMS="0.362500" startTime="60298988533" stopTime="60298992158" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.117000" startTime="60298988535" stopTime="60298989705" args="%USER%/Shaders/Cache/D3D11/lookupdata.bin"> 
+									</block>
+								</block>
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.803600" startTime="60298994703" stopTime="60299002739" args=""> 
+								<block name="Renderer:Resource_Open" totalTimeMS="0.130000" startTime="60298995568" stopTime="60298996868" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.128500" startTime="60298995569" stopTime="60298996854" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.128200" startTime="60298995570" stopTime="60298996852" args="%USER%/Shaders/Cache/D3D11/CGGShaders/SkyHDR@$AutoGS_MultiRes"> 
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Flush" totalTimeMS="0.440300" startTime="60298996903" stopTime="60299001306" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.115000" startTime="60298996906" stopTime="60298998056" args="%USER%/Shaders/Cache/D3D11/lookupdata.bin"> 
+									</block>
+								</block>
+							</block>
+						</block>
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="2.577400" startTime="60299002818" stopTime="60299028592" args=""> 
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="1.146600" startTime="60299003037" stopTime="60299014503" args=""> 
+								<block name="Renderer:Resource_Open" totalTimeMS="0.258200" startTime="60299004454" stopTime="60299007036" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.256100" startTime="60299004456" stopTime="60299007017" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.255900" startTime="60299004456" stopTime="60299007015" args="%USER%/Shaders/Cache/D3D11/CGVShaders/SkyHDR@SkyZVS"> 
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Flush" totalTimeMS="0.359900" startTime="60299007075" stopTime="60299010674" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.117000" startTime="60299007078" stopTime="60299008248" args="%USER%/Shaders/Cache/D3D11/lookupdata.bin"> 
+									</block>
+								</block>
+								<block name="CHWShader_D3D::mfPrecacheAllCombinations()" totalTimeMS="0.124900" startTime="60299012039" stopTime="60299013288" args=""> 
+								</block>
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="1.152800" startTime="60299014506" stopTime="60299026034" args=""> 
+								<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.118300" startTime="60299014590" stopTime="60299015773" args=""> 
+								</block>
+								<block name="Renderer:Resource_Open" totalTimeMS="0.138000" startTime="60299016808" stopTime="60299018188" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.136400" startTime="60299016809" stopTime="60299018173" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.136100" startTime="60299016810" stopTime="60299018171" args="%USER%/Shaders/Cache/D3D11/CGPShaders/SkyHDR@SkyZPS"> 
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Flush" totalTimeMS="0.369600" startTime="60299018223" stopTime="60299021919" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.116200" startTime="60299018226" stopTime="60299019388" args="%USER%/Shaders/Cache/D3D11/lookupdata.bin"> 
+									</block>
+								</block>
+								<block name="CHWShader_D3D::mfPrecacheAllCombinations()" totalTimeMS="0.119600" startTime="60299023379" stopTime="60299024575" args=""> 
+								</block>
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.251200" startTime="60299026037" stopTime="60299028549" args=""> 
+							</block>
+						</block>
+					</block>
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="1.622100" startTime="60299029510" stopTime="60299045731" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="1.480300" startTime="60299029511" stopTime="60299044314" args=""> 
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="9.257500" startTime="60299045794" stopTime="60299138369" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="1.681400" startTime="60299045795" stopTime="60299062609" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="7.574400" startTime="60299062613" stopTime="60299138357" args=""> 
+				<block name="CTexture::RT_Precache" totalTimeMS="7.566500" startTime="60299062678" stopTime="60299138343" args=""> 
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Textures/Texture.cpp" totalTimeMS="7.565600" startTime="60299062683" stopTime="60299138339" args=""> 
+						<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="0.435600" startTime="60299063044" stopTime="60299067400" args="%ENGINE%/EngineAssets/Textures/defaults/16_12.dds"> 
+							<block name="CTexture::LoadFromImage" totalTimeMS="0.435000" startTime="60299063049" stopTime="60299067399" args="%ENGINE%/EngineAssets/Textures/defaults/16_12.dds"> 
+								<block name="Renderer:Texture_StreamPrepare" totalTimeMS="0.433300" startTime="60299063063" stopTime="60299067396" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.107100" startTime="60299064294" stopTime="60299065365" args="c:\program files (x86)\crytek\cryengine launcher\crytek\cryengine_5.5\engine\engineassets\textures\defaults\16_12.tif"> 
+									</block>
+								</block>
+							</block>
+						</block>
+						<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="0.287100" startTime="60299067463" stopTime="60299070334" args="%ENGINE%/EngineAssets/Textures/defaults/16_34.dds"> 
+							<block name="CTexture::LoadFromImage" totalTimeMS="0.286400" startTime="60299067468" stopTime="60299070332" args="%ENGINE%/EngineAssets/Textures/defaults/16_34.dds"> 
+								<block name="Renderer:Texture_StreamPrepare" totalTimeMS="0.285000" startTime="60299067479" stopTime="60299070329" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="0.286900" startTime="60299070388" stopTime="60299073257" args="%ENGINE%/EngineAssets/Textures/defaults/16_5.dds"> 
+							<block name="CTexture::LoadFromImage" totalTimeMS="0.286300" startTime="60299070392" stopTime="60299073255" args="%ENGINE%/EngineAssets/Textures/defaults/16_5.dds"> 
+								<block name="Renderer:Texture_StreamPrepare" totalTimeMS="0.285400" startTime="60299070399" stopTime="60299073253" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="0.491000" startTime="60299073309" stopTime="60299078219" args="%ENGINE%/EngineAssets/Textures/defaults/16_grey.dds"> 
+							<block name="CTexture::LoadFromImage" totalTimeMS="0.490500" startTime="60299073312" stopTime="60299078217" args="%ENGINE%/EngineAssets/Textures/defaults/16_grey.dds"> 
+								<block name="Renderer:Texture_StreamPrepare" totalTimeMS="0.226500" startTime="60299073320" stopTime="60299075585" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="CTexture::Load(ETEX_Format eTFDst)" totalTimeMS="5.990600" startTime="60299078272" stopTime="60299138178" args="%ENGINE%/EngineAssets/Textures/Skys/Night/half_moon.dds"> 
+							<block name="CTexture::LoadFromImage" totalTimeMS="5.989700" startTime="60299078275" stopTime="60299138172" args="%ENGINE%/EngineAssets/Textures/Skys/Night/half_moon.dds"> 
+								<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Textures/Image/DDSImage.cpp" totalTimeMS="3.584200" startTime="60299079856" stopTime="60299115698" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Textures/Image/DDSImage.cpp" totalTimeMS="3.338100" startTime="60299079858" stopTime="60299113239" args=""> 
+										<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="2.230400" startTime="60299080648" stopTime="60299102952" args=""> 
+											<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="2.229700" startTime="60299080649" stopTime="60299102946" args=""> 
+												<block name="ZipDir::Cache::DecompressFile" totalTimeMS="1.641500" startTime="60299081246" stopTime="60299097661" args=""> 
+													<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/ZipDirStructures.cpp" totalTimeMS="1.641200" startTime="60299081248" stopTime="60299097660" args=""> 
+														<block name="ZlibInflateElement_Impl" totalTimeMS="1.640900" startTime="60299081250" stopTime="60299097659" args=""> 
+														</block>
+													</block>
+												</block>
+											</block>
+										</block>
+										<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.560200" startTime="60299103580" stopTime="60299109182" args=""> 
+											<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.559900" startTime="60299103581" stopTime="60299109180" args=""> 
+												<block name="ZipDir::Cache::DecompressFile" totalTimeMS="0.411600" startTime="60299103775" stopTime="60299107891" args=""> 
+													<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/ZipDirStructures.cpp" totalTimeMS="0.411500" startTime="60299103776" stopTime="60299107891" args=""> 
+														<block name="ZlibInflateElement_Impl" totalTimeMS="0.411200" startTime="60299103778" stopTime="60299107890" args=""> 
+														</block>
+													</block>
+												</block>
+											</block>
+										</block>
+										<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.158500" startTime="60299109493" stopTime="60299111078" args=""> 
+											<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.158100" startTime="60299109495" stopTime="60299111076" args=""> 
+												<block name="ZipDir::Cache::DecompressFile" totalTimeMS="0.113000" startTime="60299109608" stopTime="60299110738" args=""> 
+													<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/ZipDirStructures.cpp" totalTimeMS="0.112900" startTime="60299109609" stopTime="60299110738" args=""> 
+														<block name="ZlibInflateElement_Impl" totalTimeMS="0.112800" startTime="60299109610" stopTime="60299110738" args=""> 
+														</block>
+													</block>
+												</block>
+											</block>
+										</block>
+									</block>
+								</block>
+								<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="1.888600" startTime="60299118114" stopTime="60299137000" args=""> 
+									<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="1.888200" startTime="60299118116" stopTime="60299136998" args=""> 
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="49.997501" startTime="60299138558" stopTime="60299638533" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="42.080997" startTime="60299138559" stopTime="60299559369" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.102500" startTime="60299559396" stopTime="60299560421" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="7.809000" startTime="60299560435" stopTime="60299638525" args=""> 
+				<block name="Renderer: RT_ParseShader" totalTimeMS="7.805900" startTime="60299560445" stopTime="60299638504" args=""> 
+					<block name="CCryPak::FOpen" totalTimeMS="0.142600" startTime="60299560595" stopTime="60299562021" args="assets/GameShaders/HWScripts/CryFX/FogVolume.cfx"> 
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.100600" startTime="60299565666" stopTime="60299566672" args=""> 
+					</block>
+					<block name="CShaderManBin::ParseBinFX" totalTimeMS="7.177300" startTime="60299566713" stopTime="60299638486" args="%ENGINE%/Shaders/Cache/D3D11/FogVolume.cfxb"> 
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="3.009900" startTime="60299580261" stopTime="60299610360" args=""> 
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="1.414000" startTime="60299580359" stopTime="60299594499" args=""> 
+								<block name="Renderer:Resource_Open" totalTimeMS="0.173500" startTime="60299582040" stopTime="60299583775" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.171400" startTime="60299582042" stopTime="60299583756" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.171200" startTime="60299582042" stopTime="60299583754" args="%USER%/Shaders/Cache/D3D11/CGVShaders/FogVolume@FogVolumeEllipsoidVS"> 
+											<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.108000" startTime="60299582671" stopTime="60299583751" args=""> 
+											</block>
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Flush" totalTimeMS="0.424400" startTime="60299583839" stopTime="60299588083" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.134000" startTime="60299583842" stopTime="60299585182" args="%USER%/Shaders/Cache/D3D11/lookupdata.bin"> 
+									</block>
+								</block>
+								<block name="Renderer:Resource_Open" totalTimeMS="0.257800" startTime="60299589001" stopTime="60299591579" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.203100" startTime="60299589544" stopTime="60299591575" args=""> 
+										<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.202400" startTime="60299589547" stopTime="60299591571" args=""> 
+											<block name="ZipDir_Cache_ReadFile" totalTimeMS="0.201600" startTime="60299589553" stopTime="60299591569" args=""> 
+												<block name="CIOWrapper::Fread" totalTimeMS="0.199000" startTime="60299589572" stopTime="60299591562" args=""> 
+												</block>
+											</block>
+										</block>
+									</block>
+								</block>
+								<block name="CHWShader_D3D::mfPrecacheAllCombinations()" totalTimeMS="0.152200" startTime="60299591629" stopTime="60299593151" args=""> 
+								</block>
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="1.582100" startTime="60299594501" stopTime="60299610322" args=""> 
+								<block name="Renderer:Resource_Open" totalTimeMS="0.140800" startTime="60299595910" stopTime="60299597318" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.139400" startTime="60299595911" stopTime="60299597305" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.139100" startTime="60299595912" stopTime="60299597303" args="%USER%/Shaders/Cache/D3D11/CGPShaders/FogVolume@FogVolumeEllipsoidPS"> 
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Flush" totalTimeMS="0.365600" startTime="60299597357" stopTime="60299601013" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.116400" startTime="60299597360" stopTime="60299598524" args="%USER%/Shaders/Cache/D3D11/lookupdata.bin"> 
+									</block>
+								</block>
+								<block name="Renderer:Resource_Open" totalTimeMS="0.214300" startTime="60299601723" stopTime="60299603866" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.172300" startTime="60299602140" stopTime="60299603863" args=""> 
+										<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.171700" startTime="60299602142" stopTime="60299603859" args=""> 
+											<block name="ZipDir_Cache_ReadFile" totalTimeMS="0.171200" startTime="60299602145" stopTime="60299603857" args=""> 
+												<block name="CIOWrapper::Fread" totalTimeMS="0.168900" startTime="60299602161" stopTime="60299603850" args=""> 
+												</block>
+											</block>
+										</block>
+									</block>
+								</block>
+								<block name="CHWShader_D3D::mfPrecacheAllCombinations()" totalTimeMS="0.530200" startTime="60299603915" stopTime="60299609217" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.138400" startTime="60299604250" stopTime="60299605634" args=""> 
+										<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.138000" startTime="60299604251" stopTime="60299605631" args=""> 
+											<block name="ZipDir_Cache_ReadFile" totalTimeMS="0.137600" startTime="60299604253" stopTime="60299605629" args=""> 
+												<block name="CIOWrapper::Fread" totalTimeMS="0.136400" startTime="60299604260" stopTime="60299605624" args=""> 
+												</block>
+											</block>
+										</block>
+									</block>
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.143900" startTime="60299606781" stopTime="60299608220" args=""> 
+										<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.143500" startTime="60299606782" stopTime="60299608217" args=""> 
+											<block name="ZipDir_Cache_ReadFile" totalTimeMS="0.142800" startTime="60299606786" stopTime="60299608214" args=""> 
+												<block name="CIOWrapper::Fread" totalTimeMS="0.140900" startTime="60299606799" stopTime="60299608208" args=""> 
+												</block>
+											</block>
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="2.741700" startTime="60299610417" stopTime="60299637834" args=""> 
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="1.366000" startTime="60299610519" stopTime="60299624179" args=""> 
+								<block name="Renderer:Resource_Open" totalTimeMS="0.137700" startTime="60299611737" stopTime="60299613114" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.136200" startTime="60299611738" stopTime="60299613100" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.135900" startTime="60299611739" stopTime="60299613098" args="%USER%/Shaders/Cache/D3D11/CGVShaders/FogVolume@FogVolumeBoxVS"> 
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Flush" totalTimeMS="0.431200" startTime="60299613151" stopTime="60299617463" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.181700" startTime="60299613154" stopTime="60299614971" args="%USER%/Shaders/Cache/D3D11/lookupdata.bin"> 
+										<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.131900" startTime="60299613650" stopTime="60299614969" args=""> 
+										</block>
+									</block>
+								</block>
+								<block name="CHWShader_D3D::mfPrecacheAllCombinations()" totalTimeMS="0.336500" startTime="60299618635" stopTime="60299622000" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.171600" startTime="60299618694" stopTime="60299620410" args=""> 
+										<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.170400" startTime="60299618695" stopTime="60299620399" args=""> 
+											<block name="ZipDir_Cache_ReadFile" totalTimeMS="0.169800" startTime="60299618696" stopTime="60299620394" args=""> 
+												<block name="CIOWrapper::Fread" totalTimeMS="0.168000" startTime="60299618703" stopTime="60299620383" args=""> 
+												</block>
+											</block>
+										</block>
+									</block>
+								</block>
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="1.360200" startTime="60299624185" stopTime="60299637787" args=""> 
+								<block name="Renderer:Resource_Open" totalTimeMS="0.184600" startTime="60299626058" stopTime="60299627904" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.182600" startTime="60299626059" stopTime="60299627885" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.182100" startTime="60299626061" stopTime="60299627882" args="%USER%/Shaders/Cache/D3D11/CGPShaders/FogVolume@FogVolumeBoxPS"> 
+											<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.116000" startTime="60299626720" stopTime="60299627880" args=""> 
+											</block>
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Flush" totalTimeMS="0.427400" startTime="60299627964" stopTime="60299632238" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.133600" startTime="60299627968" stopTime="60299629304" args="%USER%/Shaders/Cache/D3D11/lookupdata.bin"> 
+									</block>
+								</block>
+								<block name="CHWShader_D3D::mfPrecacheAllCombinations()" totalTimeMS="0.286900" startTime="60299633709" stopTime="60299636578" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.171200" startTime="60299633795" stopTime="60299635507" args=""> 
+										<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.170800" startTime="60299633796" stopTime="60299635504" args=""> 
+											<block name="ZipDir_Cache_ReadFile" totalTimeMS="0.170500" startTime="60299633797" stopTime="60299635502" args=""> 
+												<block name="CIOWrapper::Fread" totalTimeMS="0.169200" startTime="60299633804" stopTime="60299635496" args=""> 
+												</block>
+											</block>
+										</block>
+									</block>
+								</block>
+							</block>
+						</block>
+					</block>
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="0.587600" startTime="60299638722" stopTime="60299644598" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="0.273400" startTime="60299638723" stopTime="60299641457" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.199200" startTime="60299642601" stopTime="60299644593" args=""> 
+				<block name="CRenderer::ForceUpdateShaderItem" totalTimeMS="0.198500" startTime="60299642604" stopTime="60299644589" args=""> 
+					<block name="SRenderThread::ExecuteRenderThreadCommand" totalTimeMS="0.197400" startTime="60299642609" stopTime="60299644583" args=""> 
+						<block name="CShaderResources::RT_UpdateConstants" totalTimeMS="0.197400" startTime="60299642609" stopTime="60299644583" args=""> 
+							<block name="CDeviceObjectFactory::CreateBuffer" totalTimeMS="0.180700" startTime="60299642619" stopTime="60299644426" args=""> 
+							</block>
+						</block>
+					</block>
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="2.824400" startTime="60299644664" stopTime="60299672908" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="2.374900" startTime="60299644665" stopTime="60299668414" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.354500" startTime="60299669358" stopTime="60299672903" args=""> 
+				<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.352900" startTime="60299669367" stopTime="60299672896" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="0.195800" startTime="60299672967" stopTime="60299674925" args=""> 
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.189200" startTime="60299673029" stopTime="60299674921" args=""> 
+				<block name="CTexture::RT_CreateDeviceTexture" totalTimeMS="0.188100" startTime="60299673034" stopTime="60299674915" args=""> 
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="0.314600" startTime="60299674979" stopTime="60299678125" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="0.269000" startTime="60299674980" stopTime="60299677670" args=""> 
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="0.271100" startTime="60299678176" stopTime="60299680887" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="0.235600" startTime="60299678177" stopTime="60299680533" args=""> 
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="0.250200" startTime="60299680961" stopTime="60299683463" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="0.224900" startTime="60299680962" stopTime="60299683211" args=""> 
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="0.242900" startTime="60299683514" stopTime="60299685943" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="0.221400" startTime="60299683515" stopTime="60299685729" args=""> 
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="2.679400" startTime="60299685998" stopTime="60299712792" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="2.601500" startTime="60299685999" stopTime="60299712014" args=""> 
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="53.918598" startTime="60299712862" stopTime="60300252048" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="45.863503" startTime="60299712863" stopTime="60300171498" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="0.111400" startTime="60300171516" stopTime="60300172630" args=""> 
+				<block name="CShaderResources::RT_UpdateConstants" totalTimeMS="0.108900" startTime="60300171533" stopTime="60300172622" args=""> 
+				</block>
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="7.836200" startTime="60300173675" stopTime="60300252037" args=""> 
+				<block name="Renderer: RT_ParseShader" totalTimeMS="7.833300" startTime="60300173684" stopTime="60300252017" args=""> 
+					<block name="CShaderManBin::ParseBinFX" totalTimeMS="7.473000" startTime="60300177265" stopTime="60300251995" args="%ENGINE%/Shaders/Cache/D3D11/WaterOceanBottom.cfxb"> 
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="3.422600" startTime="60300188674" stopTime="60300222900" args=""> 
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="1.281600" startTime="60300188800" stopTime="60300201616" args=""> 
+								<block name="Renderer:Resource_Open" totalTimeMS="0.173100" startTime="60300190187" stopTime="60300191918" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.171300" startTime="60300190188" stopTime="60300191901" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.171000" startTime="60300190189" stopTime="60300191899" args="%USER%/Shaders/Cache/D3D11/CGVShaders/WaterOceanBottom@OceanBottomVS"> 
+											<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.106500" startTime="60300190831" stopTime="60300191896" args=""> 
+											</block>
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Flush" totalTimeMS="0.425300" startTime="60300191979" stopTime="60300196232" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.135600" startTime="60300191983" stopTime="60300193339" args="%USER%/Shaders/Cache/D3D11/lookupdata.bin"> 
+									</block>
+								</block>
+								<block name="CHWShader_D3D::mfPrecacheAllCombinations()" totalTimeMS="0.208100" startTime="60300197568" stopTime="60300199649" args=""> 
+								</block>
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="1.207400" startTime="60300201624" stopTime="60300213698" args=""> 
+								<block name="Renderer:Resource_Open" totalTimeMS="0.180400" startTime="60300203493" stopTime="60300205297" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.177700" startTime="60300203494" stopTime="60300205271" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.177400" startTime="60300203495" stopTime="60300205269" args="%USER%/Shaders/Cache/D3D11/CGPShaders/WaterOceanBottom@OceanBottomPS"> 
+											<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.109000" startTime="60300204176" stopTime="60300205266" args=""> 
+											</block>
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Flush" totalTimeMS="0.465500" startTime="60300205362" stopTime="60300210017" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.139900" startTime="60300205366" stopTime="60300206765" args="%USER%/Shaders/Cache/D3D11/lookupdata.bin"> 
+									</block>
+								</block>
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.913700" startTime="60300213701" stopTime="60300222838" args=""> 
+								<block name="Renderer:Resource_Open" totalTimeMS="0.135800" startTime="60300214729" stopTime="60300216087" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.134200" startTime="60300214730" stopTime="60300216072" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.133900" startTime="60300214731" stopTime="60300216070" args="%USER%/Shaders/Cache/D3D11/CGGShaders/WaterOceanBottom@$AutoGS_MultiRes"> 
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Flush" totalTimeMS="0.466100" startTime="60300216123" stopTime="60300220784" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.114300" startTime="60300216126" stopTime="60300217269" args="%USER%/Shaders/Cache/D3D11/lookupdata.bin"> 
+									</block>
+								</block>
+							</block>
+						</block>
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="2.839000" startTime="60300222934" stopTime="60300251324" args=""> 
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="1.340400" startTime="60300223043" stopTime="60300236447" args=""> 
+								<block name="Renderer:Resource_Open" totalTimeMS="0.118200" startTime="60300223695" stopTime="60300224877" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.114900" startTime="60300223697" stopTime="60300224846" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.109300" startTime="60300223699" stopTime="60300224792" args="%USER%/Shaders/Cache/D3D11/CGVShaders/WaterOceanBottom@OceanBottomZpassVS"> 
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Open" totalTimeMS="0.214800" startTime="60300224922" stopTime="60300227070" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.212200" startTime="60300224927" stopTime="60300227049" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.211400" startTime="60300224932" stopTime="60300227046" args="%USER%/Shaders/Cache/D3D11/CGVShaders/WaterOceanBottom@OceanBottomZpassVS"> 
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Flush" totalTimeMS="0.415500" startTime="60300227114" stopTime="60300231269" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.132800" startTime="60300227118" stopTime="60300228446" args="%USER%/Shaders/Cache/D3D11/lookupdata.bin"> 
+									</block>
+								</block>
+								<block name="CHWShader_D3D::mfPrecacheAllCombinations()" totalTimeMS="0.201000" startTime="60300232968" stopTime="60300234978" args=""> 
+								</block>
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="1.200100" startTime="60300236452" stopTime="60300248453" args=""> 
+								<block name="Renderer:Resource_Open" totalTimeMS="0.143800" startTime="60300238335" stopTime="60300239773" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.142000" startTime="60300238336" stopTime="60300239756" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.141700" startTime="60300238337" stopTime="60300239754" args="%USER%/Shaders/Cache/D3D11/CGPShaders/WaterOceanBottom@OceanBottomZpassPS"> 
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Flush" totalTimeMS="0.402900" startTime="60300239817" stopTime="60300243846" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.124800" startTime="60300239820" stopTime="60300241068" args="%USER%/Shaders/Cache/D3D11/lookupdata.bin"> 
+									</block>
+								</block>
+								<block name="CHWShader_D3D::mfPrecacheAllCombinations()" totalTimeMS="0.152200" startTime="60300245480" stopTime="60300247002" args=""> 
+								</block>
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.281200" startTime="60300248459" stopTime="60300251271" args=""> 
+							</block>
+						</block>
+					</block>
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="17.164200" startTime="60300252272" stopTime="60300423914" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="0.481900" startTime="60300252274" stopTime="60300257093" args=""> 
+			</block>
+			<block name="SRenderThread: eRC_LambdaCall" totalTimeMS="16.531700" startTime="60300258588" stopTime="60300423905" args=""> 
+				<block name="Renderer: RT_ParseShader" totalTimeMS="16.528900" startTime="60300258596" stopTime="60300423885" args=""> 
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.105200" startTime="60300260579" stopTime="60300261631" args=""> 
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/CryPak.cpp" totalTimeMS="0.104700" startTime="60300260582" stopTime="60300261629" args=""> 
+						</block>
+					</block>
+					<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.113900" startTime="60300262591" stopTime="60300263730" args=""> 
+					</block>
+					<block name="CShaderManBin::ParseBinFX" totalTimeMS="16.010000" startTime="60300263762" stopTime="60300423862" args="%ENGINE%/Shaders/Cache/D3D11/WaterFogVolume.cfxb"> 
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="3.688600" startTime="60300280697" stopTime="60300317583" args=""> 
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="1.312300" startTime="60300280803" stopTime="60300293926" args=""> 
+								<block name="Renderer:Resource_Open" totalTimeMS="0.170900" startTime="60300283024" stopTime="60300284733" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.168200" startTime="60300283026" stopTime="60300284708" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.167900" startTime="60300283027" stopTime="60300284706" args="%USER%/Shaders/Cache/D3D11/CGVShaders/WaterFogVolume@WaterVolumeIntoVS"> 
+											<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.103000" startTime="60300283673" stopTime="60300284703" args=""> 
+											</block>
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Flush" totalTimeMS="0.429900" startTime="60300284799" stopTime="60300289098" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.135800" startTime="60300284803" stopTime="60300286161" args="%USER%/Shaders/Cache/D3D11/lookupdata.bin"> 
+									</block>
+								</block>
+								<block name="CHWShader_D3D::mfPrecacheAllCombinations()" totalTimeMS="0.182600" startTime="60300290592" stopTime="60300292418" args=""> 
+								</block>
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="2.360800" startTime="60300293928" stopTime="60300317536" args=""> 
+								<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.257600" startTime="60300294046" stopTime="60300296622" args=""> 
+								</block>
+								<block name="Renderer:Resource_Open" totalTimeMS="0.154600" startTime="60300297821" stopTime="60300299367" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.153000" startTime="60300297822" stopTime="60300299352" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.152700" startTime="60300297823" stopTime="60300299350" args="%USER%/Shaders/Cache/D3D11/CGPShaders/WaterFogVolume@WaterVolumeIntoPS"> 
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Flush" totalTimeMS="0.394700" startTime="60300299408" stopTime="60300303355" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.118400" startTime="60300299412" stopTime="60300300596" args="%USER%/Shaders/Cache/D3D11/lookupdata.bin"> 
+									</block>
+								</block>
+								<block name="CHWShader_D3D::mfPrecacheAllCombinations()" totalTimeMS="1.062800" startTime="60300304724" stopTime="60300315352" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="3.439600" startTime="60300317651" stopTime="60300352047" args=""> 
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="1.405600" startTime="60300317795" stopTime="60300331851" args=""> 
+								<block name="Renderer:Resource_Open" totalTimeMS="0.334000" startTime="60300320298" stopTime="60300323638" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.331400" startTime="60300320299" stopTime="60300323613" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.330900" startTime="60300320301" stopTime="60300323610" args="%USER%/Shaders/Cache/D3D11/CGVShaders/WaterFogVolume@WaterVolumeOutofVS"> 
+											<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.259400" startTime="60300321009" stopTime="60300323603" args=""> 
+											</block>
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Flush" totalTimeMS="0.416500" startTime="60300323724" stopTime="60300327889" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.132100" startTime="60300323729" stopTime="60300325050" args="%USER%/Shaders/Cache/D3D11/lookupdata.bin"> 
+									</block>
+								</block>
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="2.014200" startTime="60300331855" stopTime="60300351997" args=""> 
+								<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.147600" startTime="60300332037" stopTime="60300333513" args=""> 
+								</block>
+								<block name="Renderer:Resource_Open" totalTimeMS="0.153200" startTime="60300334634" stopTime="60300336166" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.151400" startTime="60300334636" stopTime="60300336150" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.151200" startTime="60300334636" stopTime="60300336148" args="%USER%/Shaders/Cache/D3D11/CGPShaders/WaterFogVolume@WaterVolumeOutofPS"> 
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Flush" totalTimeMS="0.403300" startTime="60300336213" stopTime="60300340246" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.122600" startTime="60300336216" stopTime="60300337442" args="%USER%/Shaders/Cache/D3D11/lookupdata.bin"> 
+									</block>
+								</block>
+								<block name="CHWShader_D3D::mfPrecacheAllCombinations()" totalTimeMS="0.820500" startTime="60300341746" stopTime="60300349951" args=""> 
+								</block>
+							</block>
+						</block>
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="3.847100" startTime="60300352119" stopTime="60300390590" args=""> 
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="1.183300" startTime="60300352279" stopTime="60300364112" args=""> 
+								<block name="Renderer:Resource_Open" totalTimeMS="0.161200" startTime="60300354254" stopTime="60300355866" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.159300" startTime="60300354256" stopTime="60300355849" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.159000" startTime="60300354257" stopTime="60300355847" args="%USER%/Shaders/Cache/D3D11/CGVShaders/WaterFogVolume@OceanIntoVS"> 
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Flush" totalTimeMS="0.413100" startTime="60300355924" stopTime="60300360055" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.125700" startTime="60300355927" stopTime="60300357184" args="%USER%/Shaders/Cache/D3D11/lookupdata.bin"> 
+									</block>
+								</block>
+								<block name="CHWShader_D3D::mfPrecacheAllCombinations()" totalTimeMS="0.121400" startTime="60300361511" stopTime="60300362725" args=""> 
+								</block>
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="1.532400" startTime="60300364117" stopTime="60300379441" args=""> 
+								<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.109800" startTime="60300364241" stopTime="60300365339" args=""> 
+								</block>
+								<block name="Renderer:Resource_Open" totalTimeMS="0.163000" startTime="60300366680" stopTime="60300368310" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.161100" startTime="60300366681" stopTime="60300368292" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.160800" startTime="60300366682" stopTime="60300368290" args="%USER%/Shaders/Cache/D3D11/CGPShaders/WaterFogVolume@OceanIntoPS"> 
+											<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.102500" startTime="60300367261" stopTime="60300368286" args=""> 
+											</block>
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Flush" totalTimeMS="0.416900" startTime="60300368360" stopTime="60300372529" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.123300" startTime="60300368362" stopTime="60300369595" args="%USER%/Shaders/Cache/D3D11/lookupdata.bin"> 
+									</block>
+								</block>
+								<block name="CHWShader_D3D::mfPrecacheAllCombinations()" totalTimeMS="0.328500" startTime="60300374161" stopTime="60300377446" args=""> 
+								</block>
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="1.109200" startTime="60300379446" stopTime="60300390538" args=""> 
+								<block name="Renderer:Resource_Open" totalTimeMS="0.289500" startTime="60300380557" stopTime="60300383452" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.287100" startTime="60300380558" stopTime="60300383429" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.286700" startTime="60300380559" stopTime="60300383426" args="%USER%/Shaders/Cache/D3D11/CGGShaders/WaterFogVolume@$AutoGS_MultiRes"> 
+											<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.225500" startTime="60300381165" stopTime="60300383420" args=""> 
+											</block>
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Flush" totalTimeMS="0.513300" startTime="60300383518" stopTime="60300388651" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.157000" startTime="60300383523" stopTime="60300385093" args="%USER%/Shaders/Cache/D3D11/lookupdata.bin"> 
+									</block>
+								</block>
+							</block>
+						</block>
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.777000" startTime="60300390654" stopTime="60300398424" args=""> 
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.219400" startTime="60300390818" stopTime="60300393012" args=""> 
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.256700" startTime="60300393013" stopTime="60300395580" args=""> 
+								<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.140300" startTime="60300393078" stopTime="60300394481" args=""> 
+								</block>
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.280400" startTime="60300395582" stopTime="60300398386" args=""> 
+							</block>
+						</block>
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="1.827800" startTime="60300398469" stopTime="60300416747" args=""> 
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.164800" startTime="60300398583" stopTime="60300400231" args=""> 
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="1.376700" startTime="60300400232" stopTime="60300413999" args=""> 
+								<block name="Renderer:Resource_Open" totalTimeMS="0.167800" startTime="60300402232" stopTime="60300403910" args=""> 
+									<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/ResFile.cpp" totalTimeMS="0.166100" startTime="60300402234" stopTime="60300403895" args=""> 
+										<block name="CCryPak::FOpen" totalTimeMS="0.165900" startTime="60300402234" stopTime="60300403893" args="%USER%/Shaders/Cache/D3D11/CGPShaders/WaterFogVolume@OceanOutofPS"> 
+											<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/CrySystem/FileIOWrapper.cpp" totalTimeMS="0.108200" startTime="60300402808" stopTime="60300403890" args=""> 
+											</block>
+										</block>
+									</block>
+								</block>
+								<block name="Renderer:Resource_Flush" totalTimeMS="0.417300" startTime="60300403965" stopTime="60300408138" args=""> 
+									<block name="CCryPak::FOpen" totalTimeMS="0.131500" startTime="60300403968" stopTime="60300405283" args="%USER%/Shaders/Cache/D3D11/lookupdata.bin"> 
+									</block>
+								</block>
+								<block name="CHWShader_D3D::mfPrecacheAllCombinations()" totalTimeMS="0.280100" startTime="60300409543" stopTime="60300412344" args=""> 
+								</block>
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.269100" startTime="60300414005" stopTime="60300416696" args=""> 
+							</block>
+						</block>
+						<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.634400" startTime="60300416803" stopTime="60300423147" args=""> 
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.165700" startTime="60300416928" stopTime="60300418585" args=""> 
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.213700" startTime="60300418586" stopTime="60300420723" args=""> 
+								<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.104000" startTime="60300418643" stopTime="60300419683" args=""> 
+								</block>
+							</block>
+							<block name="D:/jk/workspace/gamesdk_release/Code/CryEngine/RenderDll/XRenderD3D9/../Common/Shaders/ShaderFXParseBin.cpp" totalTimeMS="0.238800" startTime="60300420723" stopTime="60300423111" args=""> 
+							</block>
+						</block>
+					</block>
+				</block>
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="0.512500" startTime="60300424185" stopTime="60300429310" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="0.363500" startTime="60300424186" stopTime="60300427821" args=""> 
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="0.266200" startTime="60300429371" stopTime="60300432033" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="0.188100" startTime="60300429372" stopTime="60300431253" args=""> 
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="0.277900" startTime="60300432083" stopTime="60300434862" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="0.177500" startTime="60300432084" stopTime="60300433859" args=""> 
+			</block>
+		</block>
+		<block name="Loop: RenderThread" totalTimeMS="0.225700" startTime="60300434911" stopTime="60300437168" args=""> 
+			<block name="SRenderThread::WaitFlushCond" totalTimeMS="0.225600" startTime="60300434912" stopTime="60300437168" args=""> 
+			</block>
+		</block>
+	</thread>
+	<thread name="Streaming File IO HDD" totalTimeMS="451.351410" startTime="60295923654" stopTime="60300437168" totalBlocks="4"> 
+		<block name="Wait - StreamIO New Request" totalTimeMS="267.252899" startTime="60295951948" stopTime="60298624477" args=""> 
+		</block>
+		<block name="Wait - StreamIO New Request" totalTimeMS="181.264008" startTime="60298624528" stopTime="60300437168" args=""> 
+		</block>
+	</thread>
+	<thread name="Streaming File IO InMemory" totalTimeMS="451.351410" startTime="60295923654" stopTime="60300437168" totalBlocks="4"> 
+		<block name="Wait - StreamIO New Request" totalTimeMS="267.211121" startTime="60295952353" stopTime="60298624464" args=""> 
+		</block>
+		<block name="Wait - StreamIO New Request" totalTimeMS="181.266602" startTime="60298624502" stopTime="60300437168" args=""> 
+		</block>
+	</thread>
+	<thread name="AudioMainThread" totalTimeMS="451.351410" startTime="60295923654" stopTime="60300437168" totalBlocks="57"> 
+		<block name="Audio: Internal Update" totalTimeMS="5.282400" startTime="60295953313" stopTime="60296006137" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="5.281700" startTime="60295953316" stopTime="60296006133" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="29.394800" startTime="60296006458" stopTime="60296300406" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="29.394098" startTime="60296006459" stopTime="60296300400" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="31.012098" startTime="60296300475" stopTime="60296610596" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="31.010700" startTime="60296300477" stopTime="60296610584" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.979601" startTime="60296610670" stopTime="60296920466" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.978598" startTime="60296610672" stopTime="60296920458" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.017200" startTime="60296920545" stopTime="60297220717" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.016300" startTime="60296920546" stopTime="60297220709" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="29.999300" startTime="60297220789" stopTime="60297520782" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="29.998301" startTime="60297220791" stopTime="60297520774" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.991001" startTime="60297520856" stopTime="60297830766" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.990099" startTime="60297520858" stopTime="60297830759" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="29.998400" startTime="60297830839" stopTime="60298130823" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="29.997601" startTime="60297830841" stopTime="60298130817" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="17.520899" startTime="60298130879" stopTime="60298306088" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="17.520201" startTime="60298130881" stopTime="60298306083" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="29.471201" startTime="60298306204" stopTime="60298600916" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="29.469900" startTime="60298306205" stopTime="60298600904" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="29.980499" startTime="60298601137" stopTime="60298900942" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="29.979700" startTime="60298601138" stopTime="60298900935" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.227802" startTime="60298901072" stopTime="60299203350" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.227001" startTime="60298901074" stopTime="60299203344" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.764301" startTime="60299203479" stopTime="60299511122" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.763399" startTime="60299203481" stopTime="60299511115" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.008701" startTime="60299511216" stopTime="60299811303" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.007700" startTime="60299511218" stopTime="60299811295" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="29.999399" startTime="60299811370" stopTime="60300111364" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="29.998400" startTime="60299811371" stopTime="60300111355" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="30.995802" startTime="60300111431" stopTime="60300421389" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="30.995199" startTime="60300111432" stopTime="60300421384" args=""> 
+			</block>
+		</block>
+		<block name="Audio: Internal Update" totalTimeMS="1.570600" startTime="60300421462" stopTime="60300437168" args=""> 
+			<block name="Wait - Audio Update" totalTimeMS="1.570500" startTime="60300421463" stopTime="60300437168" args=""> 
+			</block>
+		</block>
+	</thread>
+	<thread name="JobSystem_Worker_7" totalTimeMS="451.351410" startTime="60295923654" stopTime="60300437168" totalBlocks="2"> 
+		<block name="SkyUpdate" totalTimeMS="5.315000" startTime="60299033560" stopTime="60299086710" args="SkyUpdate"> 
+			<block name="CSkyLightManager::UpdateInternal" totalTimeMS="5.301200" startTime="60299033685" stopTime="60299086697" args=""> 
+			</block>
+		</block>
+	</thread>
+</root>
